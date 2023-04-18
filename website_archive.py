@@ -320,7 +320,7 @@ class WebsiteArchive(BaseWebsite):
             is_200 = self.check_response_status(source)
 
             # if not is_200 or self.found_duplicate or page == 4: #TODO activate after building media archive
-            if not is_200 or self.interruption:
+            if not is_200 or self.interruption or page == 3:
                 logging.info(
                     f"***Link {self.start_url + str(page)} responses was not equal to 200 "
                     f"or the scraper reach duplicated item")
@@ -373,3 +373,4 @@ btv = WebsiteArchive("btvnovinite.bg",
                      "WebsiteArchive")
 
 btv_news_dict = btv.crawling_through_pages()
+
