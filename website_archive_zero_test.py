@@ -55,69 +55,6 @@ class BaseWebsite(ABC):
         """
         return source.status_code == 200
 
-    @staticmethod
-    def check_if_keyword_in_string(text: str, keywords: tuple) -> [List[str], None]:
-        """
-        Uses the two tuples: _first_level_keywords, _second_level_keywords for filtering only the article titles and
-        then the article texts which are in the scope of the project
-        :param text: article_title or article_text
-        :param keywords: the two tuples: _first_level_keywords, _second_level_keywords from the BaseWebsite class
-        :return: either matched keywords or None
-        """
-        if any(substring in re.sub(
-                r'[.|–,!?:„“;\-()"\\/{}\]\[`=]', ' ',
-                " " + text.lower())
-               for substring in keywords):
-            return [word for word in keywords if word in text.lower()]
-        else:
-            return None
-
-    @staticmethod
-    def get_locations(article_text):
-        """
-
-        :param article_text:
-        :return:
-        """
-        location = []
-        [location.append(value) for value in BaseWebsite._search_dict_city.values() if
-         value in article_text and value not in location]
-        [location.append(value) for value in BaseWebsite._search_dict_village.values() if
-         value in article_text and value not in location]
-        return location if location else ""
-
-    @abstractmethod
-    def search_in_archive_csv_by_column_by_value(self, column, value):
-        ...
-
-    @abstractmethod
-    def section_soup(self, source):
-        ...
-
-    @abstractmethod
-    def article_soup(self, url: str):
-        ...
-
-    @abstractmethod
-    def get_article_title(self, element):
-        ...
-
-    @abstractmethod
-    def get_article_link(self, element):
-        ...
-
-    @abstractmethod
-    def get_article_text(self, scope):
-        ...
-
-    @abstractmethod
-    def get_article_datetime_str(self, article_url):
-        ...
-
-    @abstractmethod
-    def add_data(self, source):
-        ...
-
     @abstractmethod
     def crawling_through_pages(self):
         ...
@@ -142,7 +79,7 @@ class WebsiteArchive(BaseWebsite):
         self.found_duplicate = False
         self.interruption = False
 
-    def search_in_archive_csv_by_column_by_value(self, column, value) -> [None, str]:
+    def search_in_archive_csv_by_column_by_value(self, column, value):
         """
         Check if a particular value already existed in a particular column to exclude duplicated records
         in the media archive file and to abort the script
@@ -154,7 +91,24 @@ class WebsiteArchive(BaseWebsite):
             return value
         return None
 
-    def section_soup(self, source) -> [None, str]:
+    @staticmethod
+    def check_if_keyword_in_string(text: str, keywords: tuple) -> [List[str], None]:
+        """
+        Uses the two tuples: _first_level_keywords, _second_level_keywords for filtering only the article titles and
+        then the article texts which are in the scope of the project
+        :param text: article_title or article_text
+        :param keywords: the two tuples: _first_level_keywords, _second_level_keywords from the BaseWebsite class
+        :return: either matched keywords or None
+        """
+        if any(substring in re.sub(
+                r'[.|–,!?:„“;\-()"\\/{}\]\[`=]', ' ',
+                " " + text.lower())
+               for substring in keywords):
+            return [word for word in keywords if word in text.lower()]
+        else:
+            return None
+
+    def section_soup(self, source):
         """
         After inspecting and defining the html box/section with the news articles and urls
         (self.section_class and self.title_class given during the initialization) the function creates a bs4soup
@@ -172,7 +126,7 @@ class WebsiteArchive(BaseWebsite):
             return None
         return section
 
-    def article_soup(self, url: str) -> [None, list]:
+    def article_soup(self, url: str):
         """
         Creates a soup with the needed scope for extracting article_text, datetime, locations etc...
         :param url: the article
@@ -188,7 +142,7 @@ class WebsiteArchive(BaseWebsite):
             return None
         return [text_scope, soup]
 
-    def get_article_title(self, element) -> [None, list]:
+    def get_article_title(self, element):
         """
         If some of the BaseWebsite._first_level_keywords matching word/words from the article title.
         The article and the article url will be further analyzed for the purpose of adding them in the _data_dict with
@@ -207,11 +161,11 @@ class WebsiteArchive(BaseWebsite):
             return article_title, first_lvl_keyword
         return None
 
-    def get_article_link(self, element) -> str:
+    def get_article_link(self, element):
         """
         Finds the article url and validates if the 'href' element is a standard formatted link (have 'https://' e.g)
         :param element:
-        :return: validated/formatted lurl as string
+        :return: validated/formatted link
         """
         link = element.a['href']
         if not link.startswith(self.base_url):
@@ -221,7 +175,7 @@ class WebsiteArchive(BaseWebsite):
 
         return valid_link
 
-    def get_article_text(self, scope) -> [str, None]:
+    def get_article_text(self, scope):
         """
         Collects the article text parts via self.article_tag
         :param scope:
@@ -234,11 +188,11 @@ class WebsiteArchive(BaseWebsite):
             return None
         return article_text
 
-    def get_article_datetime_str(self, article_url) -> str:
+    def get_article_datetime_str(self, article_url):
         """
         Extracts the date and time when the article was publish/updated and remove some local formatting
         :param article_url:
-        :return: empty string or the date/time in string format
+        :return:
         """
         try:
             article_soup = self.article_soup(article_url)[1]
@@ -249,9 +203,23 @@ class WebsiteArchive(BaseWebsite):
         article_datetime = datetime_scope.getText().replace(" ч.", "").replace(" г.", "")
         return article_datetime
 
-    def add_data(self, source) -> dict:
+    @staticmethod
+    def get_locations(article_text):
         """
-        The main function of the script that connects the rest of the data collection functions
+
+        :param article_text:
+        :return:
+        """
+        location = []
+        [location.append(value) for value in BaseWebsite._search_dict_city.values() if
+         value in article_text and value not in location]
+        [location.append(value) for value in BaseWebsite._search_dict_village.values() if
+         value in article_text and value not in location]
+        return location if location else ""
+
+    def add_data(self, source):
+        """
+        The main function of the script that controls the other
         :param source:
         :return:
         """
@@ -268,13 +236,17 @@ class WebsiteArchive(BaseWebsite):
                     logging.info(f"*** Problem with extracting article_title or/and article_url")
                     continue
 
-                # Check if the article + URL already existed
-                if self.search_in_archive_csv_by_column_by_value("URL", article_url) and \
-                        self.search_in_archive_csv_by_column_by_value("Title", article_title):
-                    logging.info(f"***Article with title: <<< {article_title} >>> already existed "
-                                 f"within the media archive as URL and Title. ")
-                    self.found_duplicate = True
-                    break
+                # Check if the article URL already existed in the media archive .csv / if yes, break and stop the script
+                # TODO : Problem - case with updated old articles will stop the script and
+                #  will not scrape next articles!!
+                #  (may be is better to use datetime as a criteria?)
+                # Check if the article URL already existed
+                # if self.search_in_archive_csv_by_column_by_value("URL", article_url) and \
+                #         self.search_in_archive_csv_by_column_by_value("Title", article_title):
+                #     logging.info(f"Article with title: <<< {article_title} >>> already existed "
+                #                   f"within the media archive as URL and Title. ")
+                #     self.found_duplicate = True
+                #     break
 
                 # Using the article link, get the rest of the data
                 article_source = requests.get(article_url)
@@ -338,17 +310,17 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption or page == 10:
-                if not is_200:
-                    logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
-                    break
+            # if not is_200 or self.found_duplicate or page == 4: #TODO activate after building media archive
+            if not is_200 or self.interruption or page == 3:
+                logging.info(
+                    f"***Link {self.start_url + str(page)} responses was not equal to 200 "
+                    f"or the scraper reach duplicated item")
                 break
 
             self.add_data(source)
             page += 1
 
         data_dict = BaseWebsite._data_dict
-
         # export collected data_dict to DataFrame
         df_from_dict = Export.dict_to_df(data_dict)
         logging.info(f"The info of the df after transform it from the _data_dict is: {df_from_dict.shape} (rows/cols)")
@@ -357,11 +329,15 @@ class WebsiteArchive(BaseWebsite):
         Export.df_to_csv(df_from_dict, self.name)
         logging.info(f"Info: {self.name, self.media_type}\nLast page was: {page}")
 
+        # # Update the .csv file with the newly collected data
+        # Update.append_records_to_csv(f"export/{self.name}_archive.csv", data_dict)
+
         # Update the .csv file with the newly collected data
         Update.append_records_from_df_to_csv(df_from_dict, f"export/{self.name}_archive.csv")
 
         # export pandas Series file with the unique words and their occurrences # TODO make it to update not replace
-        Stats.count_word_occurrences(f"export/{self.name}_archive.csv", ["Article", "Title"], self.name, True)
+        Export.sr_to_csv(Stats.count_word_occurrences(f"export/{self.name}_archive.csv", "Article", True),
+                         f"{self.name}_stats")
 
         return data_dict
 
