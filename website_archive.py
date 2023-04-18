@@ -338,7 +338,7 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption or page == 10:
+            if not is_200 or self.found_duplicate or self.interruption:
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
                     break

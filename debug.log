@@ -1,117 +1,17 @@
-18-04-2023 19:50:52 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:50:52 INFO     Info: ('btvnovinite.bg', 'TV news')
+18-04-2023 19:59:49 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
+18-04-2023 19:59:49 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 1
-18-04-2023 19:50:52 INFO     ***Article with title: <<< Почина Донка Стамболийска, съпруга на Иван Гарелов >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:50:52 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
-18-04-2023 19:50:52 INFO     Info: ('btvnovinite.bg', 'TV news')
+18-04-2023 19:59:50 INFO     +++ Records for the news with Почина Донка Стамболийска, съпруга на Иван Гарелов with url https://btvnovinite.bg/bulgaria/pochina-donka-stambolijska-sapruga-na-ivan-garelov.html and text Почина радиожурналистката Донка Стамболийска, съпруга на Иван Гарелов. Тъжната вест съобщи Гарелов. Съпругата му е починала след кратко боледуване. Донка Стамболийска е един от най-известните гласове на БНР, където работи дълги години. from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 1
+18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 2
-18-04-2023 19:50:53 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
-18-04-2023 19:50:53 INFO     Info: ('btvnovinite.bg', 'TV news')
-Last page was: 2
-18-04-2023 19:51:37 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:51:37 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 1
-18-04-2023 19:51:38 INFO     ***Article with title: <<< Почина Донка Стамболийска, съпруга на Иван Гарелов >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
-18-04-2023 19:51:38 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 2
-18-04-2023 19:51:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 0
-18-04-2023 19:51:38 INFO     Info: ('btvnovinite.bg', 'TV news')
+18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 1
+18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 3
-18-04-2023 19:51:38 INFO     ***Article with title: <<< Майка и син загинаха при пожар в село Павелско >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 0
-18-04-2023 19:51:38 INFO     Info: ('btvnovinite.bg', 'TV news')
+18-04-2023 19:59:50 INFO     ***Article with title: <<< Майка и син загинаха при пожар в село Павелско >>> already existed within the media archive as URL and Title. 
+18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 1
+18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 4
-18-04-2023 19:51:39 INFO     ***Article with title: <<< Христо Балабанов – Кристо в битка за живота на майка си: Намерихме решение за лечение в Турция >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=5	The number of found articles is: 0
-18-04-2023 19:51:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 5
-18-04-2023 19:51:39 INFO     ***Article with title: <<< 80-годишна жена беше влачена от трамвай в София >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=6	The number of found articles is: 0
-18-04-2023 19:51:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 6
-18-04-2023 19:51:41 INFO     +++ Records for the news with Каруца с кон блъсна жена в Севлиево, с опасност за живота е with url https://btvnovinite.bg/bulgaria/karuca-s-kon-blasna-zhena-v-sevlievo-s-opasnost-za-zhivota-e.html and text Жена е с опасност за живота, след като е била блъсната от каруца, теглена от кон в Севлиево, съобщиха за БТА от ОДМВР-Габрово. Сигналът за инцидента в подаден в 12:55 часа днес. Каруцата е ударила жената, когато тя е пресичала на пешеходна пътека в града. Това е станало на улица „Васил Левски“ в града. На място се е отзовал екип на Районното управление на МВР в Севлиево и екип на Центъра за спешна помощ в града. Жената е на възраст 81 години и е с черепно-мозъчна травма, откарана е в Плевен за животоспасяващи интервенции. Водачът на каруцата е на 63 години, а пробата му за алкохол, взета на място, е отрицателна. По случая тече разследване и е образувано досъдебно производство. from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
-18-04-2023 19:51:41 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=7	The number of found articles is: 1
-18-04-2023 19:51:41 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 7
-18-04-2023 19:51:41 INFO     ***Article with title: <<< Възрастна жена изгуби пенсията си преди Великден, дарители успяха да възстановят сумата >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:41 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=8	The number of found articles is: 1
-18-04-2023 19:51:41 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 8
-18-04-2023 19:51:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=9	The number of found articles is: 1
-18-04-2023 19:51:42 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 9
-18-04-2023 19:51:42 INFO     ***Article with title: <<< Задържаха мъж, ударил с юмрук жена в столична болница >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:51:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=10	The number of found articles is: 1
-18-04-2023 19:51:42 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 10
-18-04-2023 19:51:43 INFO     The info of the df after transform it from the _data_dict is: (1, 9) (rows/cols)
-18-04-2023 19:51:43 INFO     Info: ('btvnovinite.bg', 'TV news')
-Last page was: 10
-18-04-2023 19:53:17 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:53:17 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 1
-18-04-2023 19:53:17 INFO     ***Article with title: <<< Почина Донка Стамболийска, съпруга на Иван Гарелов >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:17 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
-18-04-2023 19:53:17 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 2
-18-04-2023 19:53:18 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
-18-04-2023 19:53:18 INFO     Info: ('btvnovinite.bg', 'TV news')
-Last page was: 2
-18-04-2023 19:53:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:53:38 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 1
-18-04-2023 19:53:38 INFO     ***Article with title: <<< Почина Донка Стамболийска, съпруга на Иван Гарелов >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
-18-04-2023 19:53:38 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 2
-18-04-2023 19:53:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 0
-18-04-2023 19:53:38 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 3
-18-04-2023 19:53:38 INFO     ***Article with title: <<< Майка и син загинаха при пожар в село Павелско >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 0
-18-04-2023 19:53:38 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 4
-18-04-2023 19:53:39 INFO     ***Article with title: <<< Христо Балабанов – Кристо в битка за живота на майка си: Намерихме решение за лечение в Турция >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=5	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 5
-18-04-2023 19:53:39 INFO     ***Article with title: <<< 80-годишна жена беше влачена от трамвай в София >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=6	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 6
-18-04-2023 19:53:39 INFO     ***Article with title: <<< Каруца с кон блъсна жена в Севлиево, с опасност за живота е >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=7	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 7
-18-04-2023 19:53:39 INFO     ***Article with title: <<< Възрастна жена изгуби пенсията си преди Великден, дарители успяха да възстановят сумата >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=8	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 8
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=9	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 9
-18-04-2023 19:53:39 INFO     ***Article with title: <<< Задържаха мъж, ударил с юмрук жена в столична болница >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:53:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=10	The number of found articles is: 0
-18-04-2023 19:53:39 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 10
-18-04-2023 19:53:40 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
-18-04-2023 19:53:40 INFO     Info: ('btvnovinite.bg', 'TV news')
-Last page was: 10
-18-04-2023 19:57:34 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:57:34 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 1
-18-04-2023 19:57:35 INFO     +++ Records for the news with Почина Донка Стамболийска, съпруга на Иван Гарелов with url https://btvnovinite.bg/bulgaria/pochina-donka-stambolijska-sapruga-na-ivan-garelov.html and text Почина радиожурналистката Донка Стамболийска, съпруга на Иван Гарелов. Тъжната вест съобщи Гарелов. Съпругата му е починала след кратко боледуване. Донка Стамболийска е един от най-известните гласове на БНР, където работи дълги години. from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
-18-04-2023 19:57:35 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 1
-18-04-2023 19:57:35 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 2
-18-04-2023 19:57:35 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 1
-18-04-2023 19:57:35 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 3
-18-04-2023 19:57:36 INFO     ***Article with title: <<< Майка и син загинаха при пожар в село Павелско >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:57:36 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 1
-18-04-2023 19:57:36 INFO     Info: ('btvnovinite.bg', 'TV news')
-Current page is 4
-18-04-2023 19:57:36 INFO     The info of the df after transform it from the _data_dict is: (1, 9) (rows/cols)
-18-04-2023 19:57:36 INFO     Info: ('btvnovinite.bg', 'TV news')
+18-04-2023 19:59:50 INFO     The info of the df after transform it from the _data_dict is: (1, 9) (rows/cols)
+18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
 Last page was: 4
