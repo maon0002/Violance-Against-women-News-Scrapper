@@ -1,17 +1,24 @@
-18-04-2023 19:59:49 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
-18-04-2023 19:59:49 INFO     Info: ('btvnovinite.bg', 'TV news')
+20-04-2023 16:04:41 INFO     Opening: 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' >>>
+20-04-2023 16:04:41 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
+20-04-2023 16:04:41 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 1
-18-04-2023 19:59:50 INFO     +++ Records for the news with Почина Донка Стамболийска, съпруга на Иван Гарелов with url https://btvnovinite.bg/bulgaria/pochina-donka-stambolijska-sapruga-na-ivan-garelov.html and text Почина радиожурналистката Донка Стамболийска, съпруга на Иван Гарелов. Тъжната вест съобщи Гарелов. Съпругата му е починала след кратко боледуване. Донка Стамболийска е един от най-известните гласове на БНР, където работи дълги години. from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
-18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 1
-18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
+20-04-2023 16:04:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
+20-04-2023 16:04:42 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 2
-18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 1
-18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
+20-04-2023 16:04:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 0
+20-04-2023 16:04:42 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 3
-18-04-2023 19:59:50 INFO     ***Article with title: <<< Майка и син загинаха при пожар в село Павелско >>> already existed within the media archive as URL and Title. 
-18-04-2023 19:59:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 1
-18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
+20-04-2023 16:04:43 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 0
+20-04-2023 16:04:43 INFO     Info: ('btvnovinite.bg', 'TV news')
 Current page is 4
-18-04-2023 19:59:50 INFO     The info of the df after transform it from the _data_dict is: (1, 9) (rows/cols)
-18-04-2023 19:59:50 INFO     Info: ('btvnovinite.bg', 'TV news')
-Last page was: 4
+20-04-2023 16:04:43 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=5	The number of found articles is: 0
+20-04-2023 16:04:43 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 5
+20-04-2023 16:04:44 INFO     ***Article with title: <<< Съдят мъж, тормозил майка си и заплашвал баба си с убийство >>> already existed within the media archive as URL and Title. 
+20-04-2023 16:04:44 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=6	The number of found articles is: 0
+20-04-2023 16:04:44 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 6
+20-04-2023 16:04:45 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
+20-04-2023 16:04:45 INFO     Info: ('btvnovinite.bg', 'TV news')
+Last page was: 6
+20-04-2023 16:04:45 INFO     The 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' was updated with 0 articles

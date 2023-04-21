@@ -1,4 +1,5 @@
 # coding: utf8
+import os
 import re
 from typing import List
 import requests
@@ -7,7 +8,7 @@ from abc import ABC, abstractmethod
 import logging
 
 from statistics import Stats
-from transform import Import, Export, Update
+from transform import Import, Export, Update, Create
 
 logging.basicConfig(filename='debug.log', encoding='utf-8',
                     level=logging.INFO,
@@ -17,13 +18,20 @@ logging.basicConfig(filename='debug.log', encoding='utf-8',
 
 
 class BaseWebsite(ABC):
+    # _first_level_keywords = (
+    #     ' жена', ' жени', 'съпруга', 'дъщеря', 'внучк', 'девойк', 'момиче', 'студентк', 'ученичк',
+    #     'баба', 'домашното насилие', 'домашно насилие', 'годеница', 'приятелк', 'гимназистк',
+    #     'майка', 'дъщери')
+    # _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
+    #                           'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
+    #                           'криминалн', 'намерен', ' полиц', 'насилван', 'запов', ' наран', ' почина')
     _first_level_keywords = (
-        ' жена', ' жени', 'съпруга', 'дъщеря', 'внучк', 'девойк', 'момиче', 'студентк', 'ученичк',
+        ' жена', ' жени', 'съпруга', ' дъщер', 'внучк', 'момиче', 'студентк', 'ученичк',
         'баба', 'домашното насилие', 'домашно насилие', 'годеница', 'приятелк', 'гимназистк',
-        'майка', 'дъщери')
+        'майка')
     _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
                               'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
-                              'криминалн', 'намерен', ' полиц', 'насилван', 'запов', ' наран', ' почина')
+                              'криминалн', 'намерен', 'насилван', ' ограничителн', ' наран', ' почина')
 
     _data_dict = {
         "Title": [],
@@ -38,8 +46,8 @@ class BaseWebsite(ABC):
         # TODO to add first and second level keywords which were found in the article
         #  (two places where are the 'any' func)
     }
-    _search_dict_village = Import("villages", "import/villages_list.csv").file_to_dictionary()
-    _search_dict_city = Import("cities", "import/cities_list.csv").file_to_dictionary()
+    _search_dict_village = Import.file_to_dictionary("import/villages_list.csv")
+    _search_dict_city = Import.file_to_dictionary("import/cities_list.csv")
 
     def __init__(self, name, base_url, media_type):
         self.name = name
@@ -127,7 +135,7 @@ class WebsiteArchive(BaseWebsite):
 
     def __init__(self, name, base_url, media_type, start_url, section_class, title_class, title_tag, article_class,
                  article_tag,
-                 datetime_tag, website_type):
+                 datetime_tag, website_type, datetime_format):
         super().__init__(name, base_url, media_type)
         self.protocol = "https://" if base_url.__contains__("https://") else "http://"
         self.start_url = start_url
@@ -138,9 +146,10 @@ class WebsiteArchive(BaseWebsite):
         self.article_tag = article_tag
         self.datetime_tag = datetime_tag
         self.website_type = website_type
-        self._media_archive_dict = Import.csv_to_dict(f'export/{self.name}_archive.csv')
+        self._media_archive_dict = None
         self.found_duplicate = False
         self.interruption = False
+        self.datetime_format = datetime_format
 
     def search_in_archive_csv_by_column_by_value(self, column, value) -> [None, str]:
         """
@@ -150,6 +159,7 @@ class WebsiteArchive(BaseWebsite):
         :param value: related to _data_dict columns/keys
         :return: value if found else None
         """
+        self._media_archive_dict = Import.csv_to_dict(f'export/{self.name}/{self.name}_archive.csv')
         if value in self._media_archive_dict[column]:
             return value
         return None
@@ -211,7 +221,7 @@ class WebsiteArchive(BaseWebsite):
         """
         Finds the article url and validates if the 'href' element is a standard formatted link (have 'https://' e.g)
         :param element:
-        :return: validated/formatted lurl as string
+        :return: validated/formatted url as string
         """
         link = element.a['href']
         if not link.startswith(self.base_url):
@@ -322,12 +332,28 @@ class WebsiteArchive(BaseWebsite):
             self.interruption = True
             return BaseWebsite._data_dict
 
+    def check_if_media_folder_exists(self):
+        dir_name = "export/"
+        list_of_file = os.listdir(dir_name)
+        dir_list = []
+        for file in list_of_file:
+            if self.name == file:
+                dir_list.append(file)
+                break
+        if not dir_list:
+            Create.create_media_folder(self.name)
+
+    def check_if_media_archive_file_exists(self, columns: List[str]):
+        Create.create_empty_archive_csv_file(self.name, columns)
+
     def crawling_through_pages(self) -> dict:
         """
         Something like control function for the scrapping trough the news archive pages starting from 1 till
         matching an article title already existed in the extracted archive
         :return: dictionary data with the collected news in predefined keys (BaseWebsite._data_dict)
         """
+        self.check_if_media_folder_exists()
+        self.check_if_media_archive_file_exists([col for col in BaseWebsite._data_dict.keys()])
         page = 1
 
         while True:
@@ -354,14 +380,20 @@ class WebsiteArchive(BaseWebsite):
         logging.info(f"The info of the df after transform it from the _data_dict is: {df_from_dict.shape} (rows/cols)")
 
         # export the DataFrame to new .csv file
-        Export.df_to_csv(df_from_dict, self.name)
+        Export.df_to_csv(df_from_dict, self.name, self.datetime_format)
         logging.info(f"Info: {self.name, self.media_type}\nLast page was: {page}")
 
         # Update the .csv file with the newly collected data
-        Update.append_records_from_df_to_csv(df_from_dict, f"export/{self.name}_archive.csv")
+        Update.append_records_from_df_to_csv(df_from_dict, f"export/{self.name}/{self.name}_archive.csv",
+                                             self.datetime_format)
+        logging.info(f"The 'export/{self.name}/{self.name}_archive.csv' was updated with "
+                     f"{len(data_dict['Title'])} articles")
 
         # export pandas Series file with the unique words and their occurrences # TODO make it to update not replace
-        Stats.count_word_occurrences(f"export/{self.name}_archive.csv", ["Article", "Title"], self.name, True)
+        Stats.count_word_occurrences(f"export/{self.name}/{self.name}_archive.csv",
+                                     ["Article", "Title"],
+                                     self.name,
+                                     True)
 
         return data_dict
 
@@ -385,6 +417,7 @@ btv = WebsiteArchive("btvnovinite.bg",
                      "news-article-inline", "title",
                      "article-body", "p",
                      "date-time",
-                     "WebsiteArchive")
+                     "WebsiteArchive",
+                     '%H:%M %d.%m.%Y')
 
 btv_news_dict = btv.crawling_through_pages()

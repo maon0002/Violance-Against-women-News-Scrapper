@@ -36,7 +36,7 @@ class Stats:
             if output_choice:
                 occurrences_sr = pd.Series(FreqDist(words), dtype='object')
                 sorted_occurrences_sr = occurrences_sr.sort_values(ascending=False)
-                Export.sr_to_csv(sorted_occurrences_sr, f"{name}_{column}_words_stats")
+                Export.sr_to_csv(sorted_occurrences_sr, name, f"{name}_{column}_words_stats")
             else:
                 occurrences_dict = pd.Series(FreqDist(words), dtype='object').to_dict()
                 sorted_occurrences_dict = dict(sorted(occurrences_dict.items(), key=lambda x: -x[1]))
