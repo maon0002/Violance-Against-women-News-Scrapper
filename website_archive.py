@@ -10,7 +10,7 @@ import logging
 from statistics import Stats
 from transform import Import, Export, Update, Create
 
-logging.basicConfig(filename='debug.log', encoding='utf-8',
+logging.basicConfig(filename='info.log', encoding='utf-8',
                     level=logging.INFO,
                     format=u'%(asctime)s %(levelname)-8s %(message)s',
                     datefmt='%d-%m-%Y %H:%M:%S'

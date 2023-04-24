@@ -12,13 +12,13 @@ class Import:
         self.name = name
         self.path = path
 
-    # def show_first_ten_rows(self) -> pd.DataFrame:
-    #     """
-    #     Uses a DataFrame to show first 10 rows from it
-    #     :return:
-    #     """
-    #     df = pd.read_csv(self.path)
-    #     return df.head(10)
+    def show_first_ten_rows(self) -> pd.DataFrame:
+        """
+        Uses a DataFrame to show first 10 rows from it
+        :return:
+        """
+        df = pd.read_csv(self.path)
+        return df.head(10)
 
     @staticmethod
     def import_to_df(path) -> pd.DataFrame:
@@ -145,7 +145,7 @@ class Update:
     @staticmethod
     def sort_df_by_datetime(dataframe: pd.DataFrame, datetime_format, ):
         dataframe['DateTime'] = pd.to_datetime(dataframe['DateTime'], format=datetime_format)
-        print(dataframe.dtypes)
+        # print(dataframe.dtypes)
         dataframe.sort_values(by='DateTime', ascending=False, inplace=True)
         return dataframe
 
