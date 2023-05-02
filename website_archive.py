@@ -18,6 +18,56 @@ logging.basicConfig(filename='info.log', encoding='utf-8',
 
 
 class BaseWebsite(ABC):
+    """A base abstract class that represent media websites
+
+        Attributes
+        ----------
+        name = media name (most recognisable part of the home page: for example "btvnovinite.bg")
+        base_url = media website home page (for example "https://btvnovinite.bg")
+        media_type = type of the media (for example "TV news", "Website", "Tabloid" etc.)
+
+        Methods
+        -------
+        check_response_status(source: requests) -> bool:
+            The function returns either the url request is 200 or not
+
+        check_if_keyword_in_string(text: str, keywords: tuple) -> [List[str], None]:
+            Uses the two tuples: _first_level_keywords, _second_level_keywords for filtering only the article titles and
+            then the article texts which are in the scope of the project
+
+        get_locations(article_text):
+            The function try to match if there is a location/s in Bulgaria in the article text
+            using an imported list of locations
+
+        search_in_archive_csv_by_column_by_value(self, column, value):
+            @abstractmethod
+
+        section_soup(self, source):
+            @abstractmethod
+
+        article_soup(self, url: str):
+            @abstractmethod
+
+        get_article_title(self, element):
+            @abstractmethod
+
+        get_article_link(self, element):
+            @abstractmethod
+
+        get_article_text(self, scope):
+            @abstractmethod
+
+        get_article_datetime_str(self, article_url):
+            @abstractmethod
+
+        add_data(self, source):
+            @abstractmethod
+
+        crawling_through_pages(self):
+            @abstractmethod
+
+
+    """
     # _first_level_keywords = (
     #     ' жена', ' жени', 'съпруга', 'дъщеря', 'внучк', 'девойк', 'момиче', 'студентк', 'ученичк',
     #     'баба', 'домашното насилие', 'домашно насилие', 'годеница', 'приятелк', 'гимназистк',
@@ -32,6 +82,7 @@ class BaseWebsite(ABC):
     _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
                               'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
                               'криминалн', 'намерен', 'насилван', ' ограничителн', ' наран', ' почина')
+
 
     _data_dict = {
         "Title": [],
@@ -81,11 +132,12 @@ class BaseWebsite(ABC):
             return None
 
     @staticmethod
-    def get_locations(article_text):
+    def get_locations(article_text) -> [List[str] or str]:
         """
-
-        :param article_text:
-        :return:
+        The function try to match if there is a location/s in Bulgaria in the article text
+        using an imported list of locations
+        :param article_text: text with the article itself
+        :return: list with matched locations or an empty string
         """
         location = []
         [location.append(value) for value in BaseWebsite._search_dict_city.values() if
