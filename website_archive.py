@@ -65,8 +65,6 @@ class BaseWebsite(ABC):
 
         crawling_through_pages(self):
             @abstractmethod
-
-
     """
     # _first_level_keywords = (
     #     ' жена', ' жени', 'съпруга', 'дъщеря', 'внучк', 'девойк', 'момиче', 'студентк', 'ученичк',
@@ -82,7 +80,6 @@ class BaseWebsite(ABC):
     _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
                               'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
                               'криминалн', 'намерен', 'насилван', ' ограничителн', ' наран', ' почина')
-
 
     _data_dict = {
         "Title": [],
@@ -184,6 +181,82 @@ class BaseWebsite(ABC):
 
 
 class WebsiteArchive(BaseWebsite):
+    """A base abstract class that represent media websites
+
+        Attributes
+        ----------
+        name = media name (most recognisable part of the home page: for example "btvnovinite.bg")
+        base_url = media website home page (for example "https://btvnovinite.bg")
+        media_type = type of the media (for example "TV news", "Website", "Tabloid" etc.)
+        protocol: either "https://" or "http://"
+        start_url: the archive url w/o the page int at the end (example: "https://btvnovinite.bg/bulgaria/?page=")
+        section_class: the inspected html class for the container of the articles and their links
+        title_class: the inspected html class for the title text
+        title_tag: the inspected html tag for the title text
+        article_class: the inspected html class for the article text
+        article_tag: the inspected html tag for the article text
+        datetime_tag: the inspected html tag for the date
+        website_type:  the type of the website
+        _media_archive_dict:  = None
+        found_duplicate: the bool for indicating if record exist that can abort the script if True (default: False)
+        interruption: the bool for indicating if something stops the crawling
+                      that can abort the script if True (default: False)
+        datetime_format:  = format of the datetime (for example:'%H:%M %d.%m.%Y')
+
+        Methods
+        -------
+
+        search_in_archive_csv_by_column_by_value(self, column, value) -> [None, str]:
+            Check if a particular value already existed
+            in a particular column to exclude duplicated records
+            in the media archive file and to abort the script
+
+        section_soup(self, source) -> [None, str]:
+            After inspecting and defining the html box/section
+            with the news articles and urls
+            (self.section_class and self.title_class given during the initialization)
+            the function creates a bs4soup
+            narrowing the search for needed article elements
+
+        article_soup(self, url: str) -> [None, list]:
+            Creates a soup with the needed scope for extracting article_text, datetime, locations etc...
+
+        get_article_title(self, element) -> [None, list]:
+            If some of the BaseWebsite._first_level_keywords
+            matching word/words from the article title.
+            The article and the article url will be further analyzed
+            for the purpose of adding them in the _data_dict with
+            the rest of the data
+
+        get_article_link(self, element) -> str:
+            Finds the article url and validates if the 'href'
+            element is a standard formatted link (have 'https://' e.g)
+
+        get_article_text(self, scope) -> [str, None]:
+            Collects the article text parts via self.article_tag
+
+        get_article_datetime_str(self, article_url) -> str:
+            Extracts the date and time when the article
+            was publish/updated and remove some local formatting
+
+        add_data(self, source) -> dict:
+            The main function of the script that connects the rest of the data collection functions
+
+        check_if_media_folder_exists(self):
+            If folder for a new BaseWebsite child instance doesn't exist,
+            the method calls another function to create it
+
+        check_if_media_archive_file_exists(self, columns: List[str]):
+            If an archive .csv file for a new BaseWebsite child instance doesn't exist,
+            the method calls another function to create it (empty one)
+
+        crawling_through_pages(self) -> dict:
+            Something like control function for the scrapping
+            trough the news archive pages starting from 1 until
+            matching an article title already existed in the extracted archive
+            or until unexpected error or exceeding the archive pages
+
+    """
 
     def __init__(self, name, base_url, media_type, start_url, section_class, title_class, title_tag, article_class,
                  article_tag,
@@ -205,8 +278,10 @@ class WebsiteArchive(BaseWebsite):
 
     def search_in_archive_csv_by_column_by_value(self, column, value) -> [None, str]:
         """
-        Check if a particular value already existed in a particular column to exclude duplicated records
+        Check if a particular value already existed
+        in a particular column to exclude duplicated records
         in the media archive file and to abort the script
+
         :param column: one of the _data_dict keys
         :param value: related to _data_dict columns/keys
         :return: value if found else None
@@ -218,10 +293,13 @@ class WebsiteArchive(BaseWebsite):
 
     def section_soup(self, source) -> [None, str]:
         """
-        After inspecting and defining the html box/section with the news articles and urls
-        (self.section_class and self.title_class given during the initialization) the function creates a bs4soup
+        After inspecting and defining the html box/section
+        with the news articles and urls
+        (self.section_class and self.title_class given during the initialization)
+        the function creates a bs4soup
         narrowing the search for needed article elements
-        :param source:
+
+        :param source: a request obj with the 'start_page' url as a parameter
         :return: section scope
         """
         source_text = source.text
@@ -237,7 +315,8 @@ class WebsiteArchive(BaseWebsite):
     def article_soup(self, url: str) -> [None, list]:
         """
         Creates a soup with the needed scope for extracting article_text, datetime, locations etc...
-        :param url: the article
+
+        :param url: the article url
         :return: both the soup for the datetime extraction later and the text scope
         """
         source = requests.get(url)
@@ -252,11 +331,13 @@ class WebsiteArchive(BaseWebsite):
 
     def get_article_title(self, element) -> [None, list]:
         """
-        If some of the BaseWebsite._first_level_keywords matching word/words from the article title.
-        The article and the article url will be further analyzed for the purpose of adding them in the _data_dict with
+        If some of the BaseWebsite._first_level_keywords
+        matching word/words from the article title.
+        The article and the article url will be further
+        analyzed for the purpose of adding them in the _data_dict with
         the rest of the data
 
-        :param element:
+        :param element: element of the html section
         :return: the title of the article and the matched words if any; else: None
         """
         try:
@@ -271,8 +352,10 @@ class WebsiteArchive(BaseWebsite):
 
     def get_article_link(self, element) -> str:
         """
-        Finds the article url and validates if the 'href' element is a standard formatted link (have 'https://' e.g)
-        :param element:
+        Finds the article url and validates if the 'href'
+        element is a standard formatted link (have 'https://' e.g)
+
+        :param element: element of the html section
         :return: validated/formatted url as string
         """
         link = element.a['href']
@@ -286,7 +369,8 @@ class WebsiteArchive(BaseWebsite):
     def get_article_text(self, scope) -> [str, None]:
         """
         Collects the article text parts via self.article_tag
-        :param scope:
+
+        :param scope: the needed html that contains the article pieces
         :return: the article text
         """
         try:
@@ -298,7 +382,9 @@ class WebsiteArchive(BaseWebsite):
 
     def get_article_datetime_str(self, article_url) -> str:
         """
-        Extracts the date and time when the article was publish/updated and remove some local formatting
+        Extracts the date and time when the article
+        was publish/updated and remove some local formatting
+
         :param article_url:
         :return: empty string or the date/time in string format
         """
@@ -314,8 +400,9 @@ class WebsiteArchive(BaseWebsite):
     def add_data(self, source) -> dict:
         """
         The main function of the script that connects the rest of the data collection functions
-        :param source:
-        :return:
+
+        :param source: a request obj with the 'start_page' url as a parameter
+        :return: the main dictionary with the data for every filtered article
         """
         try:
             articles_section = self.section_soup(source)
@@ -384,7 +471,13 @@ class WebsiteArchive(BaseWebsite):
             self.interruption = True
             return BaseWebsite._data_dict
 
-    def check_if_media_folder_exists(self):
+    def check_if_media_folder_exists(self) -> None:
+        """
+        If folder for a new BaseWebsite child instance doesn't exist,
+        the method calls another function to create it
+
+        :return: None
+        """
         dir_name = "export/"
         list_of_file = os.listdir(dir_name)
         dir_list = []
@@ -396,12 +489,22 @@ class WebsiteArchive(BaseWebsite):
             Create.create_media_folder(self.name)
 
     def check_if_media_archive_file_exists(self, columns: List[str]):
+        """
+        If an archive .csv file for a new BaseWebsite child instance doesn't exist,
+        the method calls another function to create it (empty one)
+
+        :param columns:
+        :return:
+        """
         Create.create_empty_archive_csv_file(self.name, columns)
 
     def crawling_through_pages(self) -> dict:
         """
-        Something like control function for the scrapping trough the news archive pages starting from 1 till
+        Something like control function for the scrapping
+        trough the news archive pages starting from 1 until
         matching an article title already existed in the extracted archive
+        or until unexpected error or exceeding the archive pages
+
         :return: dictionary data with the collected news in predefined keys (BaseWebsite._data_dict)
         """
         self.check_if_media_folder_exists()
