@@ -94,6 +94,22 @@ class BaseWebsite(ABC):
         # TODO to add first and second level keywords which were found in the article
         #  (two places where are the 'any' func)
     }
+
+    _bg_months = {
+        "януари": "01",
+        "февруари": "02",
+        "март": "03",
+        "април": "04",
+        "май": "05",
+        "юни": "06",
+        "юли": "07",
+        "август": "08",
+        "септември": "09",
+        "октомври": "10",
+        "ноември": "11",
+        "декември": "12",
+    }
+
     _search_dict_village = Import.file_to_dictionary("import/villages_list.csv")
     _search_dict_city = Import.file_to_dictionary("import/cities_list.csv")
 
@@ -306,7 +322,11 @@ class WebsiteArchive(BaseWebsite):
         soup = BeautifulSoup(source_text, 'lxml')
         try:
             main_section = soup.find(class_=self.section_class)  # TODO make self.main_section
-            section = main_section.find_all(class_=self.title_class)
+            if self.title_class != "a":
+                section = main_section.find_all(class_=self.title_class)  # TODO
+            else:
+                section = main_section.find_all(self.title_class)
+            # section = main_section.find_all(class_=self.title_class)
         except AttributeError:
             logging.info(f"***Can't find the html section/box by self.section_class or self.title_class")
             return None
@@ -342,6 +362,7 @@ class WebsiteArchive(BaseWebsite):
         """
         try:
             article_title = element.find(class_=self.title_tag).text
+            article_title = article_title.replace("\n", "").strip()
         except AttributeError:
             logging.info(f"***Can't find article title")
             return None
@@ -358,7 +379,11 @@ class WebsiteArchive(BaseWebsite):
         :param element: element of the html section
         :return: validated/formatted url as string
         """
-        link = element.a['href']
+        if self.title_class != 'a':
+            link = element.a['href']
+        else:
+            link = element.get('href')
+
         if not link.startswith(self.base_url):
             valid_link = self.base_url + link
         else:
@@ -394,7 +419,17 @@ class WebsiteArchive(BaseWebsite):
         except AttributeError:
             logging.info(f"***Issue with extracting datetime for url: {article_url}")
             return ""
-        article_datetime = datetime_scope.getText().replace(" ч.", "").replace(" г.", "")
+        article_datetime = datetime_scope.getText().replace(" ч.", "").replace(" г.", "").replace("\n", "").strip()
+
+        # check if bg month in the datetime
+        if len([ch for ch in article_datetime.lower() if re.search('[а-яА-Я]', ch)]) > 2:
+            new_datetime = None
+            for x in article_datetime.split(" "):
+                if x.lower() in BaseWebsite._bg_months.keys():
+                    replacement = BaseWebsite._bg_months[x.lower()]
+                    new_datetime = article_datetime.replace(x, replacement)
+                    return new_datetime
+
         return article_datetime
 
     def add_data(self, source) -> dict:
@@ -519,7 +554,7 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption:
+            if not is_200 or self.found_duplicate or self.interruption or page == 100:
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
                     break
@@ -564,15 +599,43 @@ class WebsiteArchive(BaseWebsite):
     """
 
 
-btv = WebsiteArchive("btvnovinite.bg",
-                     "https://btvnovinite.bg",
-                     "TV news",
-                     "https://btvnovinite.bg/bulgaria/?page=",
-                     "section-listing news-articles-inline",
-                     "news-article-inline", "title",
-                     "article-body", "p",
-                     "date-time",
-                     "WebsiteArchive",
-                     '%H:%M %d.%m.%Y')
+# btv = WebsiteArchive("btvnovinite.bg",
+#                      "https://btvnovinite.bg",
+#                      "TV news",
+#                      "https://btvnovinite.bg/bulgaria/?page=",
+#                      "section-listing news-articles-inline",
+#                      "news-article-inline", "title",
+#                      "article-body", "p",
+#                      "date-time",
+#                      "WebsiteArchive",
+#                      '%H:%M %d.%m.%Y')
+#
+# btv_news_dict = btv.crawling_through_pages()
 
-btv_news_dict = btv.crawling_through_pages()
+
+# nova = WebsiteArchive("nova.bg",
+#                       "https://nova.bg",
+#                       "TV news",
+#                       "https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/",
+#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 category-list-wrapper",
+#                       "thumb-box", "title",
+#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 article-body io-article-body", "p",  #
+#                       "date-time",
+#                       "WebsiteArchive",
+#                       '%d %m %Y  %H:%M')  # '04 май 2023  17:38' to '04 05 2023  17:38'
+#
+# nova_news_dict = nova.crawling_through_pages()
+
+bnt = WebsiteArchive("bntnews.bg",
+                     "https://bntnews.bg",
+                     "TV news",
+                     "https://bntnews.bg/bg/c/bulgaria?page=",
+                     "news-wrap-view", # "left-wrap padd-r my-activity"     "news-wrap-view"
+                     "a", "img-title",
+                     "txt-news", "p",
+                     "news-time",
+                     "WebsiteArchive",
+                     '%H:%M, %d.%m.%Y')  # 18:33, 02.05.2023
+
+bnt_news_dict = bnt.crawling_through_pages()
+print(bnt_news_dict.values())
