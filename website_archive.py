@@ -517,6 +517,8 @@ class WebsiteArchive(BaseWebsite):
         """
         try:
             articles_section = self.section_soup(source)
+            if not articles_section:
+                self.interruption = True
 
             for i in range(len(articles_section)):
                 element = articles_section[i]
@@ -631,7 +633,7 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption:
+            if not is_200 or self.found_duplicate or self.interruption or page == 10698: #23580 bnt, 10698 nova , 10000 btv
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
                     break
@@ -728,8 +730,8 @@ bnt = WebsiteArchive("bntnews.bg",
 #
 all_media_instances_list = BaseWebsite.get_media_names()
 
-btv_news_dict = btv.crawling_through_pages()
+# btv_news_dict = btv.crawling_through_pages()
 # bnt_news_dict = bnt.crawling_through_pages()
-# nova_news_dict = nova.crawling_through_pages()
+nova_news_dict = nova.crawling_through_pages()
 
 # Export.combine_archives(all_media_instances_list)
