@@ -108,6 +108,26 @@ class Export:
         """
         sr.to_csv(f"{Export.__export_folder}{media_name}/{file_name}.csv", encoding='utf-8')
 
+    @staticmethod
+    def combine_archives(web_media: list):
+        """
+        Combines the data from all existed media archives into one archive
+        :param web_media:
+        :return:
+        """
+        file_name = "combined_archive"
+        datetime_format = '%Y-%m-%d %H:%M:%S'  # 2021-07-14 19:10:00
+        combined_df = pd.DataFrame(
+            columns=["Title", "URL", "Source", "Type", "DateTime", "Article", "Location", "Keywords1", "Keywords2"]
+        )
+
+        for media in web_media:
+            current_df = pd.read_csv(f"{Export.__export_folder}{media}/{media}_archive.csv")
+            combined_df = pd.concat([combined_df, current_df])
+
+        sorted_dataframe = Update.sort_df_by_datetime(combined_df, datetime_format)
+        sorted_dataframe.to_csv(f"{Export.__export_folder}/{file_name}.csv", encoding='utf-8', index=False)
+
 
 class Update:
 
@@ -144,6 +164,12 @@ class Update:
 
     @staticmethod
     def sort_df_by_datetime(dataframe: pd.DataFrame, datetime_format, ):
+        """
+        ValueError: time data '11:09, 06.05.2023' does not match format '%d %m %Y  %H:%M' (match)
+        :param dataframe:
+        :param datetime_format:
+        :return:
+        """
         dataframe['DateTime'] = pd.to_datetime(dataframe['DateTime'], format=datetime_format)
         # print(dataframe.dtypes)
         dataframe.sort_values(by='DateTime', ascending=False, inplace=True)
@@ -186,5 +212,3 @@ class Create:
         # # writing empty DataFrame to the new csv file
         # dataframe.to_csv(f"{Create.__export_folder}{media_name}/{media_name}_archive.csv")
         # logging.info(f"Empty File 'export/{media_name}/{media_name}_archive.csv' Created Successfully")
-
-

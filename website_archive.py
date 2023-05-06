@@ -66,20 +66,29 @@ class BaseWebsite(ABC):
         crawling_through_pages(self):
             @abstractmethod
     """
-    # _first_level_keywords = (
-    #     ' жена', ' жени', 'съпруга', 'дъщеря', 'внучк', 'девойк', 'момиче', 'студентк', 'ученичк',
-    #     'баба', 'домашното насилие', 'домашно насилие', 'годеница', 'приятелк', 'гимназистк',
-    #     'майка', 'дъщери')
-    # _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
-    #                           'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
-    #                           'криминалн', 'намерен', ' полиц', 'насилван', 'запов', ' наран', ' почина')
+
     _first_level_keywords = (
         ' жена', ' жени', 'съпруга', ' дъщер', 'внучк', 'момиче', 'студентк', 'ученичк',
         'баба', 'домашното насилие', 'домашно насилие', 'годеница', 'приятелк', 'гимназистк',
         'майка')
-    _second_level_keywords = ('домашно насилие', 'уби', 'стрел', 'мушк', 'обезобраз', 'преби', 'наказан',
-                              'изнасил', 'тормоз', 'насил', ' рани', ' стрел', 'сигнал', 'осъд', 'смърт',
-                              'криминалн', 'намерен', 'насилван', ' ограничителн', ' наран', ' почина')
+
+    _second_level_keywords = ('домашно насилие', 'уби', 'застрел', 'мушк', 'обезобраз', 'преби',
+                              'изнасил', 'тормоз', 'насил', ' прострел', 'смърт', 'жертва', 'нарязя')
+
+    _first_level_keywords_excl = (
+        'мъж и жена', 'катастроф', 'автобус', ' кола', 'трамва', 'блъсна', 'автомоб', 'зебра', 'влак', 'камион',
+        'маршрутк',
+        'тролей', 'волан', 'шофьор', 'самолет', 'микробус', 'тир', 'мотор', 'шофир', 'пешеход', 'спирка', 'такси',
+        'куче', 'нахап', 'глутниц', 'ужил',
+        'пожар', 'наводн', 'мълния', 'удави', ' море', 'срут', 'почитаме', "мъжа и жената", 'мигранти',
+        ' падан', ' падна ', 'скочи', 'операц', 'здравн', 'здрави', 'здраве', 'здрава', 'психичн', 'пари',
+        'телефон', ' ало ', 'потоп', 'издирва ', 'родител', 'нарко', 'алкохол', 'грип', 'COVID', 'бебе', 'донор',
+        'инцидент', 'онко', ' рак ', 'добро', 'деца', 'роден', 'роди', 'сърце', 'приет', 'изчезнали', 'дете',
+    )
+
+    _second_level_keywords_excl = (
+        'инцидент', 'шофьорка', 'катастрофа'
+    )
 
     _data_dict = {
         "Title": [],
@@ -91,8 +100,6 @@ class BaseWebsite(ABC):
         "Location": [],
         "Keywords1": [],
         "Keywords2": [],
-        # TODO to add first and second level keywords which were found in the article
-        #  (two places where are the 'any' func)
     }
 
     _bg_months = {
@@ -130,15 +137,15 @@ class BaseWebsite(ABC):
     @staticmethod
     def check_if_keyword_in_string(text: str, keywords: tuple) -> [List[str], None]:
         """
-        Uses the two tuples: _first_level_keywords, _second_level_keywords for filtering only the article titles and
+        Uses the two tuples: _first_level_keywords, _second_level_keywords,
+        _first_level_keywords_excl, _second_level_keywords_excl
+        for filtering only the article titles and
         then the article texts which are in the scope of the project
         :param text: article_title or article_text
         :param keywords: the two tuples: _first_level_keywords, _second_level_keywords from the BaseWebsite class
         :return: either matched keywords or None
         """
-        if any(substring in re.sub(
-                r'[.|–,!?:„“;\-()"\\/{}\]\[`=]', ' ',
-                " " + text.lower())
+        if any(substring in re.sub(r'[.|–,!?:„“;\-()"\\/{}\]\[`=]', ' ', " " + text.lower())
                for substring in keywords):
             return [word for word in keywords if word in text.lower()]
         else:
@@ -158,6 +165,24 @@ class BaseWebsite(ABC):
         [location.append(value) for value in BaseWebsite._search_dict_village.values() if
          value in article_text and value not in location]
         return location if location else ""
+
+    @staticmethod
+    def get_media_names():
+        """
+
+        :return:
+        """
+        tmp = globals().copy()
+        # print(tmp)
+        media_names_list: list = []
+        for k, v in tmp.items():
+            if isinstance(v, BaseWebsite):
+                # print(k, v)
+                media_names_list.append(v)
+        return media_names_list
+
+    def __str__(self):
+        return f"{self.name}"
 
     @abstractmethod
     def search_in_archive_csv_by_column_by_value(self, column, value):
@@ -276,7 +301,8 @@ class WebsiteArchive(BaseWebsite):
 
     def __init__(self, name, base_url, media_type, start_url, section_class, title_class, title_tag, article_class,
                  article_tag,
-                 datetime_tag, website_type, datetime_format):
+                 datetime_class, datetime_tag,
+                 website_type, datetime_format):
         super().__init__(name, base_url, media_type)
         self.protocol = "https://" if base_url.__contains__("https://") else "http://"
         self.start_url = start_url
@@ -285,6 +311,7 @@ class WebsiteArchive(BaseWebsite):
         self.title_tag = title_tag
         self.article_class = article_class
         self.article_tag = article_tag
+        self.datetime_class = datetime_class
         self.datetime_tag = datetime_tag
         self.website_type = website_type
         self._media_archive_dict = None
@@ -332,6 +359,23 @@ class WebsiteArchive(BaseWebsite):
             return None
         return section
 
+    def datetime_soup(self, url: str) -> [None, list]:
+        """
+        Creates a soup with the needed scope for extracting article_text, datetime, locations etc...
+
+        :param url: the article url
+        :return: both the soup for the datetime extraction later and the text scope
+        """
+        source = requests.get(url)
+        source_text = source.text
+        soup = BeautifulSoup(source_text, 'lxml')
+        try:
+            datetime_scope = soup.find(class_=self.datetime_class)
+        except AttributeError:
+            logging.info(f"***Can't find text_scope searching in {url} soup")
+            return None
+        return datetime_scope
+
     def article_soup(self, url: str) -> [None, list]:
         """
         Creates a soup with the needed scope for extracting article_text, datetime, locations etc...
@@ -347,7 +391,7 @@ class WebsiteArchive(BaseWebsite):
         except AttributeError:
             logging.info(f"***Can't find text_scope searching in {url} soup")
             return None
-        return [text_scope, soup]
+        return text_scope
 
     def get_article_title(self, element) -> [None, list]:
         """
@@ -367,8 +411,14 @@ class WebsiteArchive(BaseWebsite):
             logging.info(f"***Can't find article title")
             return None
         first_lvl_keyword = self.check_if_keyword_in_string(article_title, BaseWebsite._first_level_keywords)
+        excluded_first_lvl_keyword = self.check_if_keyword_in_string(article_title,
+                                                                     BaseWebsite._first_level_keywords_excl)
         if first_lvl_keyword:
-            return article_title, first_lvl_keyword
+            if not excluded_first_lvl_keyword:
+                return article_title, first_lvl_keyword
+            else:
+                logging.info(f"---Article with title: {article_title} was not added because"
+                             f" contains words from article title exclusion list: {excluded_first_lvl_keyword}")
         return None
 
     def get_article_link(self, element) -> str:
@@ -399,7 +449,13 @@ class WebsiteArchive(BaseWebsite):
         :return: the article text
         """
         try:
-            article_text = " ".join(a.getText().replace('\xa0', " ").strip() for a in scope.findAll(self.article_tag))
+            # get and join the <p> article text and replace new line tags and spaces with single space
+            article_text = " ".join(a.getText()
+                                    .replace('\xa0', " ")
+                                    .replace('\n', " ")
+                                    .replace('\r', " ")
+                                    .strip()
+                                    for a in scope.findAll(self.article_tag))
         except AttributeError:
             logging.info(f"***Can't find article text")
             return None
@@ -414,23 +470,43 @@ class WebsiteArchive(BaseWebsite):
         :return: empty string or the date/time in string format
         """
         try:
-            article_soup = self.article_soup(article_url)[1]
-            datetime_scope = article_soup.find(class_=self.datetime_tag)
+            datetime_soup = self.datetime_soup(article_url)
+            datetime_scope = datetime_soup.find(class_=self.datetime_tag)
         except AttributeError:
             logging.info(f"***Issue with extracting datetime for url: {article_url}")
             return ""
-        article_datetime = datetime_scope.getText().replace(" ч.", "").replace(" г.", "").replace("\n", "").strip()
+        article_datetime = datetime_scope.getText()
 
         # check if bg month in the datetime
         if len([ch for ch in article_datetime.lower() if re.search('[а-яА-Я]', ch)]) > 2:
-            new_datetime = None
+
             for x in article_datetime.split(" "):
                 if x.lower() in BaseWebsite._bg_months.keys():
                     replacement = BaseWebsite._bg_months[x.lower()]
-                    new_datetime = article_datetime.replace(x, replacement)
-                    return new_datetime
+                    article_datetime = article_datetime.replace(x, replacement)
+                    # print(article_datetime, "<< with month")
+                    # article_datetime = article_datetime.replace(" ", ":", 2)
+                    article_datetime = article_datetime.replace("  ", "-")
+                    article_datetime = article_datetime.replace(" ", ":")
+                    article_datetime = article_datetime.replace("-", " ")
+                    # print(article_datetime, "<< without month")
 
-        return article_datetime
+        lst = [re.sub(r'[^\d]', " ", x).strip() for x in article_datetime.split(" ")]
+        new_dt = [x for x in lst if x]
+        # print(new_dt)
+        final_article_datetime = []
+        for element in new_dt:
+            if len(element) == 5:
+                time = element.replace(" ", ":")
+                final_article_datetime.append(time)
+            else:
+                date = element.replace(" ", "-")
+                final_article_datetime.append(date)
+        if len(final_article_datetime[0]) < len(final_article_datetime[1]):
+            final_article_datetime[0], final_article_datetime[1] = final_article_datetime[1], final_article_datetime[0]
+
+        # print(", ".join(x for x in final_article_datetime))
+        return ", ".join(x for x in final_article_datetime)
 
     def add_data(self, source) -> dict:
         """
@@ -464,7 +540,7 @@ class WebsiteArchive(BaseWebsite):
                 article_source = requests.get(article_url)
                 is_200 = self.check_response_status(article_source)
                 if all([article_source, is_200]):
-                    article_text_scope = self.article_soup(article_url)[0]
+                    article_text_scope = self.article_soup(article_url)
                     article_text = self.get_article_text(article_text_scope)
                     if not all([article_text_scope, article_text]):
                         logging.info(f"***Either article_text_scope or article_text was not present for some reason!"
@@ -533,14 +609,14 @@ class WebsiteArchive(BaseWebsite):
         """
         Create.create_empty_archive_csv_file(self.name, columns)
 
-    def crawling_through_pages(self) -> dict:
+    def crawling_through_pages(self) -> str:
         """
         Something like control function for the scrapping
         trough the news archive pages starting from 1 until
         matching an article title already existed in the extracted archive
         or until unexpected error or exceeding the archive pages
 
-        :return: dictionary data with the collected news in predefined keys (BaseWebsite._data_dict)
+        :return: None
         """
         self.check_if_media_folder_exists()
         self.check_if_media_archive_file_exists([col for col in BaseWebsite._data_dict.keys()])
@@ -548,13 +624,14 @@ class WebsiteArchive(BaseWebsite):
 
         while True:
             logging.info(f"\tFor media {self.name} ({self.media_type}) searching in page {self.start_url}{page}\t"
-                         f"The number of found articles is: {len(BaseWebsite._data_dict['Title'])}")
-            print(page, len(BaseWebsite._data_dict["Title"]))
+                         f"The number of found articles is: "
+                         f"{len(BaseWebsite._data_dict['Title']) if BaseWebsite._data_dict['Title'] else 0}")
+            print(self.name, page, len(BaseWebsite._data_dict["Title"]))
             logging.info(f"Info: {self.name, self.media_type}\nCurrent page is {page}")
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption or page == 100:
+            if not is_200 or self.found_duplicate or self.interruption:
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
                     break
@@ -576,6 +653,7 @@ class WebsiteArchive(BaseWebsite):
         # Update the .csv file with the newly collected data
         Update.append_records_from_df_to_csv(df_from_dict, f"export/{self.name}/{self.name}_archive.csv",
                                              self.datetime_format)
+
         logging.info(f"The 'export/{self.name}/{self.name}_archive.csv' was updated with "
                      f"{len(data_dict['Title'])} articles")
 
@@ -585,7 +663,19 @@ class WebsiteArchive(BaseWebsite):
                                      self.name,
                                      True)
 
-        return data_dict
+        BaseWebsite._data_dict = {
+            "Title": [],
+            "URL": [],
+            "Source": [],
+            "Type": [],
+            "DateTime": [],
+            "Article": [],
+            "Location": [],
+            "Keywords1": [],
+            "Keywords2": [],
+        }
+        logging.info(f"@The article collection for {self.name} is done!")
+        return f"@The article collection for {self.name} is done!"
 
     def __repr__(self):
         return f"""
@@ -599,43 +689,47 @@ class WebsiteArchive(BaseWebsite):
     """
 
 
-# btv = WebsiteArchive("btvnovinite.bg",
-#                      "https://btvnovinite.bg",
-#                      "TV news",
-#                      "https://btvnovinite.bg/bulgaria/?page=",
-#                      "section-listing news-articles-inline",
-#                      "news-article-inline", "title",
-#                      "article-body", "p",
-#                      "date-time",
-#                      "WebsiteArchive",
-#                      '%H:%M %d.%m.%Y')
-#
-# btv_news_dict = btv.crawling_through_pages()
+btv = WebsiteArchive("btvnovinite.bg",
+                     "https://btvnovinite.bg",
+                     "TV news",
+                     "https://btvnovinite.bg/bulgaria/?page=",
+                     "section-listing news-articles-inline",
+                     "news-article-inline", "title",
+                     "article-body", "p",
+                     "date-time-wrap", "date-time",
+                     "WebsiteArchive",
+                     "%d-%m-%Y, %H:%M",
+                     )
 
-
-# nova = WebsiteArchive("nova.bg",
-#                       "https://nova.bg",
-#                       "TV news",
-#                       "https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/",
-#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 category-list-wrapper",
-#                       "thumb-box", "title",
-#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 article-body io-article-body", "p",  #
-#                       "date-time",
-#                       "WebsiteArchive",
-#                       '%d %m %Y  %H:%M')  # '04 май 2023  17:38' to '04 05 2023  17:38'
-#
-# nova_news_dict = nova.crawling_through_pages()
+nova = WebsiteArchive("nova.bg",
+                      "https://nova.bg",
+                      "TV news",
+                      "https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/",
+                      "col-lg-12 col-md-12 col-sm-12 col-xs-12 category-list-wrapper",
+                      "thumb-box", "title",
+                      "col-lg-12 col-md-12 col-sm-12 col-xs-12 article-body io-article-body", "p",  #
+                      "col-lg-8 col-md-8 col-sm-12 col-xs-12 artcle-desc-info", "date-time",
+                      "WebsiteArchive",
+                      "%d-%m-%Y, %H:%M",
+                      )
 
 bnt = WebsiteArchive("bntnews.bg",
                      "https://bntnews.bg",
                      "TV news",
                      "https://bntnews.bg/bg/c/bulgaria?page=",
-                     "news-wrap-view", # "left-wrap padd-r my-activity"     "news-wrap-view"
+                     "news-wrap-view",
                      "a", "img-title",
-                     "txt-news", "p",
-                     "news-time",
+                     "big-slider video-wrap -r", "p",
+                     "r-part relative", "news-time",
                      "WebsiteArchive",
-                     '%H:%M, %d.%m.%Y')  # 18:33, 02.05.2023
+                     "%d-%m-%Y, %H:%M",
+                     )
 
-bnt_news_dict = bnt.crawling_through_pages()
-print(bnt_news_dict.values())
+#
+all_media_instances_list = BaseWebsite.get_media_names()
+
+btv_news_dict = btv.crawling_through_pages()
+# bnt_news_dict = bnt.crawling_through_pages()
+# nova_news_dict = nova.crawling_through_pages()
+
+# Export.combine_archives(all_media_instances_list)
