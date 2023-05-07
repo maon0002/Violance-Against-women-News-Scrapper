@@ -181,11 +181,3 @@ print(bnt_news_dict.values())
 #
 # nova_news_dict = nova.crawling_through_pages()
 # print(nova_news_dict.values())
-
-
-
-# link = el.get('href')
-#             title = el.get(self.title_tag) # title = el.get('title')
-#             title = el.get('title') # title = el.get('title')
-#             # news_time = el.get(f'news-time')
-# link = element.get('href')

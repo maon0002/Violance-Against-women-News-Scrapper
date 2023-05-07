@@ -93,6 +93,3 @@ for article_datetime in article_datetime_lst:
 
     print(", ".join(x for x in final_article_datetime))
 
-
-# final_article_datetime = re.sub('[а-яА-Я]|\(|\)', "", article_datetime)
-# print(final_article_datetime.strip())
