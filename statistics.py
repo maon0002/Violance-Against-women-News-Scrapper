@@ -15,10 +15,11 @@ class Stats:
         """
         Imports a .csv file to a DateFrame, cleans and join all text values from a chosen column and counts the
         occurrences of every word with length more than 2 chars
-        :param name:
-        :param output_choice:
-        :param path:
-        :param columns:
+
+        :param path: the archive file path from which the function will get the data
+        :param columns: Title or Article (to count the words in a specific column)
+        :param name: output file name
+        :param output_choice: True by default for dataframes (False if data is in dictionary format)
         :return: sorted in desc order dictionary/series with the word as a key
         and the number of the occurrences as a value:
                     {'жената': 24, 'това': 23, 'калоян': 21, 'жена': 21, 'като': 20, 'полицията': 19,...}

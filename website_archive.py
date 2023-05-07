@@ -13,7 +13,8 @@ from transform import Import, Export, Update, Create, RemoveFile
 logging.basicConfig(filename='info.log', encoding='utf-8',
                     level=logging.INFO,
                     format=u'%(asctime)s %(levelname)-8s %(message)s',
-                    datefmt='%d-%m-%Y %H:%M:%S'
+                    datefmt='%d-%m-%Y %H:%M:%S',
+                    filemode="w",
                     )
 
 
@@ -562,7 +563,11 @@ class WebsiteArchive(BaseWebsite):
                             f"keywords were found in the article text "
                             f"Article url: {article_url}")
                         continue
+                    # adding datetime of publishing the article
                     article_datetime_str = self.get_article_datetime_str(article_url)
+
+                    # adding locations if some of the locations from the imported file
+                    # is/are matching with strings in the article's text
                     locations_in_article = self.get_locations(article_text)
 
                     BaseWebsite._data_dict["Title"].append(article_title)
@@ -622,8 +627,7 @@ class WebsiteArchive(BaseWebsite):
 
         :return: None
         """
-        RemoveFile.delete_log()
-        logging.info("The previous log file was successfully deleted!")
+        # check if media folders and media archive file exists and creates it if not
         self.check_if_media_folder_exists()
         self.check_if_media_archive_file_exists([col for col in BaseWebsite._data_dict.keys()])
         page = 1
@@ -637,6 +641,7 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
+            # break if not the correct response, a duplicate record was found or an interruption occurs
             if not is_200 or self.found_duplicate or self.interruption:
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
@@ -668,7 +673,8 @@ class WebsiteArchive(BaseWebsite):
                                      ["Article", "Title"],
                                      self.name,
                                      True)
-
+        # setting the data dictionary bach to initial state
+        # for not letting the different exports to have mixed media data
         BaseWebsite._data_dict = {
             "Title": [],
             "URL": [],
@@ -735,17 +741,15 @@ bnt = WebsiteArchive("bntnews.bg",
 all_media_instances_list = BaseWebsite.get_media_names()[0]
 all_media_instances_dict = BaseWebsite.get_media_names()[1]
 
-
-
-# btv_news_dict = btv.crawling_through_pages()
-# bnt_news_dict = bnt.crawling_through_pages()
-# nova_news_dict = nova.crawling_through_pages()
+btv_news_dict = btv.crawling_through_pages()
+bnt_news_dict = bnt.crawling_through_pages()
+nova_news_dict = nova.crawling_through_pages()
 
 # combine all archives
 Export.combine_archives(list(all_media_instances_dict.values()))
 
 # export pandas Series file with the unique words and their occurrences
-Stats.count_word_occurrences(f"export/combined_archive.csv",
+Stats.count_word_occurrences(f"export/combined_archive/combined_archive.csv",
                              ["Article", "Title"],
                              "combined_archive",
                              True)

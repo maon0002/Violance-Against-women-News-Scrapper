@@ -159,6 +159,14 @@ class Update:
 
     @staticmethod
     def append_records_from_df_to_csv(dataframe: pd.DataFrame, path: str, datetime_format: str) -> None:
+        """
+        Appends newly found articles into the media archive .csv
+
+        :param dataframe:
+        :param path:
+        :param datetime_format:
+        :return:
+        """
         Update.sort_df_by_datetime(dataframe, datetime_format)
         dataframe.to_csv(path, mode='a', index=False, header=False)
 
@@ -180,6 +188,11 @@ class Create:
 
     @staticmethod
     def create_media_folder(name: str):
+        """
+        Creates media folder if not exist (in case of newly initialized web media for example
+        :param name:
+        :return:
+        """
         directory = name
         parent_directory = "export/"
         path = os.path.join(parent_directory, directory)
@@ -188,6 +201,12 @@ class Create:
 
     @staticmethod
     def create_empty_archive_csv_file(media_name, columns):
+        """
+        Creates media archive .csv if not exist (in case of newly initialized web media for example
+        :param media_name:
+        :param columns:
+        :return:
+        """
 
         try:
             open(f"{Create.__export_folder}{media_name}/{media_name}_archive.csv")
@@ -203,11 +222,16 @@ class Create:
 
 
 class RemoveFile:
-
-    @staticmethod
-    def delete_log():
-        os.remove("info.log")
+    """
+    The class handles removing of a specific files
+    """
 
     @staticmethod
     def delete_file(path):
+        """
+        Delete the file from the file path
+
+        :param path: file path
+        :return:
+        """
         os.remove(path)
