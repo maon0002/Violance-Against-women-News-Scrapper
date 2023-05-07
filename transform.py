@@ -126,7 +126,7 @@ class Export:
             combined_df = pd.concat([combined_df, current_df])
 
         sorted_dataframe = Update.sort_df_by_datetime(combined_df, datetime_format)
-        sorted_dataframe.to_csv(f"{Export.__export_folder}/{file_name}.csv", encoding='utf-8', index=False)
+        sorted_dataframe.to_csv(f"{Export.__export_folder}/{file_name}/{file_name}.csv", encoding='utf-8', index=False)
 
 
 class Update:
@@ -171,7 +171,6 @@ class Update:
         :return:
         """
         dataframe['DateTime'] = pd.to_datetime(dataframe['DateTime'], format=datetime_format)
-        # print(dataframe.dtypes)
         dataframe.sort_values(by='DateTime', ascending=False, inplace=True)
         return dataframe
 
@@ -202,13 +201,13 @@ class Create:
                 csv_file.close()
             logging.info(f"Creating: '{Create.__export_folder}{media_name}/{media_name}_archive.csv' >>>")
 
-            # with open(f"{Create.__export_folder}{media_name}/{media_name}_archive.csv", 'w') as creating_new_csv_file:
-            #     pass
-            # logging.info(f"Empty File 'export/{media_name}/{media_name}_archive.csv' Created Successfully")
 
-        # # creating new pandas DataFrame
-        # dataframe = pd.DataFrame(list())
-        #
-        # # writing empty DataFrame to the new csv file
-        # dataframe.to_csv(f"{Create.__export_folder}{media_name}/{media_name}_archive.csv")
-        # logging.info(f"Empty File 'export/{media_name}/{media_name}_archive.csv' Created Successfully")
+class RemoveFile:
+
+    @staticmethod
+    def delete_log():
+        os.remove("info.log")
+
+    @staticmethod
+    def delete_file(path):
+        os.remove(path)

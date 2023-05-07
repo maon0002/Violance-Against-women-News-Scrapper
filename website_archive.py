@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 import logging
 
 from statistics import Stats
-from transform import Import, Export, Update, Create
+from transform import Import, Export, Update, Create, RemoveFile
 
 logging.basicConfig(filename='info.log', encoding='utf-8',
                     level=logging.INFO,
@@ -175,11 +175,13 @@ class BaseWebsite(ABC):
         tmp = globals().copy()
         # print(tmp)
         media_names_list: list = []
+        media_names_dict: dict = {}
         for k, v in tmp.items():
             if isinstance(v, BaseWebsite):
                 # print(k, v)
                 media_names_list.append(v)
-        return media_names_list
+                media_names_dict[k] = v
+        return [media_names_list, media_names_dict]
 
     def __str__(self):
         return f"{self.name}"
@@ -620,6 +622,8 @@ class WebsiteArchive(BaseWebsite):
 
         :return: None
         """
+        RemoveFile.delete_log()
+        logging.info("The previous log file was successfully deleted!")
         self.check_if_media_folder_exists()
         self.check_if_media_archive_file_exists([col for col in BaseWebsite._data_dict.keys()])
         page = 1
@@ -633,7 +637,7 @@ class WebsiteArchive(BaseWebsite):
             source = requests.get(self.start_url + str(page))
             is_200 = self.check_response_status(source)
 
-            if not is_200 or self.found_duplicate or self.interruption or page == 10698: #23580 bnt, 10698 nova , 10000 btv
+            if not is_200 or self.found_duplicate or self.interruption:
                 if not is_200:
                     logging.info(f"***Link {self.start_url + str(page)} responses was not equal to 200 ")
                     break
@@ -659,7 +663,7 @@ class WebsiteArchive(BaseWebsite):
         logging.info(f"The 'export/{self.name}/{self.name}_archive.csv' was updated with "
                      f"{len(data_dict['Title'])} articles")
 
-        # export pandas Series file with the unique words and their occurrences # TODO make it to update not replace
+        # export pandas Series file with the unique words and their occurrences
         Stats.count_word_occurrences(f"export/{self.name}/{self.name}_archive.csv",
                                      ["Article", "Title"],
                                      self.name,
@@ -727,11 +731,21 @@ bnt = WebsiteArchive("bntnews.bg",
                      "%d-%m-%Y, %H:%M",
                      )
 
-#
-all_media_instances_list = BaseWebsite.get_media_names()
+# get a list with all media names for combining them later
+all_media_instances_list = BaseWebsite.get_media_names()[0]
+all_media_instances_dict = BaseWebsite.get_media_names()[1]
+
+
 
 # btv_news_dict = btv.crawling_through_pages()
 # bnt_news_dict = bnt.crawling_through_pages()
-nova_news_dict = nova.crawling_through_pages()
+# nova_news_dict = nova.crawling_through_pages()
 
-# Export.combine_archives(all_media_instances_list)
+# combine all archives
+Export.combine_archives(list(all_media_instances_dict.values()))
+
+# export pandas Series file with the unique words and their occurrences
+Stats.count_word_occurrences(f"export/combined_archive.csv",
+                             ["Article", "Title"],
+                             "combined_archive",
+                             True)
