@@ -140,19 +140,19 @@ def __repr__(self):
     """
 
 
-# btv = WebsiteArchive("btvnovinite.bg",
-#                      "https://btvnovinite.bg",
-#                      "TV news",
-#                      "https://btvnovinite.bg/bulgaria/?page=",
-#                      "section-listing news-articles-inline",
-#                      "news-article-inline", "title",
-#                      "article-body", "p",
-#                      "date-time",
-#                      "WebsiteArchive",
-#                      '%H:%M %d.%m.%Y')
-#
-# btv_news_dict = btv.crawling_through_pages()
-# print(btv_news_dict.values())
+btv = WebsiteArchive("btvnovinite.bg",
+                     "https://btvnovinite.bg",
+                     "TV news",
+                     "https://btvnovinite.bg/bulgaria/?page=",
+                     "section-listing news-articles-inline",
+                     "news-article-inline", "title",
+                     "article-body", "p",
+                     "date-time",
+                     "WebsiteArchive",
+                     '%H:%M %d.%m.%Y')
+
+btv_news_dict = btv.crawling_through_pages()
+print(btv_news_dict.values())
 
 bnt = WebsiteArchive("bntnews.bg",
                      "https://bntnews.bg",
@@ -168,16 +168,16 @@ bnt = WebsiteArchive("bntnews.bg",
 bnt_news_dict = bnt.crawling_through_pages()
 print(bnt_news_dict.values())
 
-# nova = WebsiteArchive("nova.bg",
-#                       "https://nova.bg",
-#                       "TV news",
-#                       "https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/",
-#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 category-list-wrapper",
-#                       "thumb-box", "title",
-#                       "col-lg-12 col-md-12 col-sm-12 col-xs-12 article-body io-article-body", "p",  #
-#                       "date-time",
-#                       "WebsiteArchive",
-#                       '%H:%M %d.%m.%Y')  # 04 май 2023  17:38
-#
-# nova_news_dict = nova.crawling_through_pages()
-# print(nova_news_dict.values())
+nova = WebsiteArchive("nova.bg",
+                      "https://nova.bg",
+                      "TV news",
+                      "https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/",
+                      "col-lg-12 col-md-12 col-sm-12 col-xs-12 category-list-wrapper",
+                      "thumb-box", "title",
+                      "col-lg-12 col-md-12 col-sm-12 col-xs-12 article-body io-article-body", "p",  #
+                      "date-time",
+                      "WebsiteArchive",
+                      '%H:%M %d.%m.%Y')  # 04 май 2023  17:38
+
+nova_news_dict = nova.crawling_through_pages()
+print(nova_news_dict.values())
