@@ -737,19 +737,21 @@ bnt = WebsiteArchive("bntnews.bg",
                      "%d-%m-%Y, %H:%M",
                      )
 
-# get a list with all media names for combining them later
-all_media_instances_list = BaseWebsite.get_media_names()[0]
-all_media_instances_dict = BaseWebsite.get_media_names()[1]
+if __name__ == "__main__":
 
-btv_news_dict = btv.crawling_through_pages()
-bnt_news_dict = bnt.crawling_through_pages()
-nova_news_dict = nova.crawling_through_pages()
+    # get a list with all media names for combining them later
+    all_media_instances_list = BaseWebsite.get_media_names()[0]
+    all_media_instances_dict = BaseWebsite.get_media_names()[1]
 
-# combine all archives
-Export.combine_archives(list(all_media_instances_dict.values()))
+    btv_news_dict = btv.crawling_through_pages()
+    bnt_news_dict = bnt.crawling_through_pages()
+    nova_news_dict = nova.crawling_through_pages()
+    
+    # combine all archives
+    Export.combine_archives(list(all_media_instances_dict.values()))
 
-# export pandas Series file with the unique words and their occurrences
-Stats.count_word_occurrences(f"export/combined_archive/combined_archive.csv",
-                             ["Article", "Title"],
-                             "combined_archive",
-                             True)
+    # export pandas Series file with the unique words and their occurrences
+    Stats.count_word_occurrences(f"export/combined_archive/combined_archive.csv",
+                                 ["Article", "Title"],
+                                 "combined_archive",
+                                 True)
