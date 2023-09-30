@@ -369,7 +369,7 @@ class WebsiteArchive(BaseWebsite):
         :param url: the article url
         :return: both the soup for the datetime extraction later and the text scope
         """
-        source = requests.get(url)
+        source = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'})
         source_text = source.text
         soup = BeautifulSoup(source_text, 'lxml')
         try:
@@ -746,7 +746,7 @@ if __name__ == "__main__":
     btv_news_dict = btv.crawling_through_pages()
     bnt_news_dict = bnt.crawling_through_pages()
     nova_news_dict = nova.crawling_through_pages()
-    
+
     # combine all archives
     Export.combine_archives(list(all_media_instances_dict.values()))
 
