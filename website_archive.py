@@ -10,12 +10,28 @@ import logging
 from statistics import Stats
 from transform import Import, Export, Update, Create, RemoveFile
 
-logging.basicConfig(filename='info.log', encoding='utf-8',
-                    level=logging.INFO,
-                    format=u'%(asctime)s %(levelname)-8s %(message)s',
-                    datefmt='%d-%m-%Y %H:%M:%S',
-                    filemode="w",
-                    )
+from datetime import datetime
+
+# Generate a unique log file name with the current datetime
+log_filename = datetime.now().strftime("info_%d-%m-%Y_%H-%M-%S.log")
+
+# Configure logging
+logging.basicConfig(
+    filename=log_filename,
+    encoding='utf-8',
+    level=logging.INFO,
+    format=u'%(asctime)s %(levelname)-8s %(message)s',
+    datefmt='%d-%m-%Y %H:%M:%S',
+    filemode="w",
+)
+
+# logging.basicConfig(filename='info.log',
+#                     encoding='utf-8',
+#                     level=logging.INFO,
+#                     format=u'%(asctime)s %(levelname)-8s %(message)s',
+#                     datefmt='%d-%m-%Y %H:%M:%S',
+#                     filemode="w",
+#                     )
 
 
 class BaseWebsite(ABC):
