@@ -1,0 +1,97 @@
+31-12-2024 12:24:09 INFO     Opening: 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' >>>
+31-12-2024 12:24:09 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
+31-12-2024 12:24:09 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 1
+31-12-2024 12:24:09 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
+31-12-2024 12:24:09 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 2
+31-12-2024 12:24:10 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 0
+31-12-2024 12:24:10 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 3
+31-12-2024 12:24:10 INFO     ---Article with title: Освободиха собственика на конете от катастрофата със загиналото момиче край Кюстендил was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:24:10 INFO     ---Article with title: Хванаха жена да шофира с 3,60 промила was not added because contains words from article title exclusion list: ['шофир']
+31-12-2024 12:24:10 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 0
+31-12-2024 12:24:10 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 4
+31-12-2024 12:24:11 INFO     ---News article: <<< Възрастна жена се нуждае от кислород, но апаратът се захранва на ток - такъв няма >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/vazrastna-zhena-se-nuzhdae-ot-kislorod-no-aparatat-se-zahranva-na-tok.html
+31-12-2024 12:24:11 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=5	The number of found articles is: 0
+31-12-2024 12:24:11 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 5
+31-12-2024 12:24:11 INFO     ---Article with title: Побой пред свидетели, никой не подава сигнал: Момиче е със 7 избити зъба, транспортират го до София was not added because contains words from article title exclusion list: ['тир', 'дете']
+31-12-2024 12:24:11 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=6	The number of found articles is: 0
+31-12-2024 12:24:11 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 6
+31-12-2024 12:24:12 INFO     ---Article with title: „Конете постоянно излизат, мерки - няма“: Още 2 момичета са ранени в катастрофата със загиналата девойка was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:24:12 INFO     ---Article with title: Смъртта на 18-годишното момиче край Кюстендил: Мълчание и падане на колене was not added because contains words from article title exclusion list: [' падан']
+31-12-2024 12:24:12 INFO     ***Article with title: <<< „Върни пулса“ : 17-годишно момиче с мисия за купуване на  автоматични външни дефибрилатори >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:24:12 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=7	The number of found articles is: 0
+31-12-2024 12:24:12 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 7
+31-12-2024 12:24:12 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
+31-12-2024 12:24:12 INFO     Info: ('btvnovinite.bg', 'TV news')
+Last page was: 7
+31-12-2024 12:24:12 INFO     The 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' was updated with 0 articles
+31-12-2024 12:24:12 INFO     @The article collection for btvnovinite.bg is done!
+31-12-2024 12:24:12 INFO     Opening: 'export/bntnews.bg/bntnews.bg_archive.csv' >>>
+31-12-2024 12:24:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=1	The number of found articles is: 0
+31-12-2024 12:24:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 1
+31-12-2024 12:24:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=2	The number of found articles is: 0
+31-12-2024 12:24:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 2
+31-12-2024 12:24:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=3	The number of found articles is: 0
+31-12-2024 12:24:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 3
+31-12-2024 12:24:13 INFO     ***Article with title: <<< Жестока агресия: Момче и момиче от Монтана са в "Пирогов" след побой >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:24:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=4	The number of found articles is: 0
+31-12-2024 12:24:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 4
+31-12-2024 12:24:13 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
+31-12-2024 12:24:13 INFO     Info: ('bntnews.bg', 'TV news')
+Last page was: 4
+31-12-2024 12:24:13 INFO     The 'export/bntnews.bg/bntnews.bg_archive.csv' was updated with 0 articles
+31-12-2024 12:24:14 INFO     @The article collection for bntnews.bg is done!
+31-12-2024 12:24:14 INFO     Opening: 'export/nova.bg/nova.bg_archive.csv' >>>
+31-12-2024 12:24:14 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/1	The number of found articles is: 0
+31-12-2024 12:24:14 INFO     Info: ('nova.bg', 'TV news')
+Current page is 1
+31-12-2024 12:24:14 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/2	The number of found articles is: 0
+31-12-2024 12:24:14 INFO     Info: ('nova.bg', 'TV news')
+Current page is 2
+31-12-2024 12:24:14 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/3	The number of found articles is: 0
+31-12-2024 12:24:14 INFO     Info: ('nova.bg', 'TV news')
+Current page is 3
+31-12-2024 12:24:14 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/4	The number of found articles is: 0
+31-12-2024 12:24:14 INFO     Info: ('nova.bg', 'TV news')
+Current page is 4
+31-12-2024 12:24:14 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/5	The number of found articles is: 0
+31-12-2024 12:24:14 INFO     Info: ('nova.bg', 'TV news')
+Current page is 5
+31-12-2024 12:24:15 INFO     ---Article with title: Майка продава ръчно изработени сувенири, за да лекува осиновеното си дете was not added because contains words from article title exclusion list: ['дете']
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/6	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 6
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/7	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 7
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/8	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 8
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/9	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 9
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/10	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 10
+31-12-2024 12:24:15 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/11	The number of found articles is: 0
+31-12-2024 12:24:15 INFO     Info: ('nova.bg', 'TV news')
+Current page is 11
+31-12-2024 12:24:16 INFO     ***Article with title: <<< По време на коледните празници: Полицията в Перник задържа трима за побой над жените си >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:24:16 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/12	The number of found articles is: 0
+31-12-2024 12:24:16 INFO     Info: ('nova.bg', 'TV news')
+Current page is 12
+31-12-2024 12:24:16 INFO     The info of the df after transform it from the _data_dict is: (0, 9) (rows/cols)
+31-12-2024 12:24:16 INFO     Info: ('nova.bg', 'TV news')
+Last page was: 12
+31-12-2024 12:24:16 INFO     The 'export/nova.bg/nova.bg_archive.csv' was updated with 0 articles
+31-12-2024 12:24:16 INFO     @The article collection for nova.bg is done!

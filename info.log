@@ -1,0 +1,1170 @@
+31-12-2024 12:05:24 INFO     Opening: 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' >>>
+31-12-2024 12:05:24 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=1	The number of found articles is: 0
+31-12-2024 12:05:24 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 1
+31-12-2024 12:05:25 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=2	The number of found articles is: 0
+31-12-2024 12:05:25 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 2
+31-12-2024 12:05:25 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=3	The number of found articles is: 0
+31-12-2024 12:05:25 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 3
+31-12-2024 12:05:25 INFO     ---Article with title: Освободиха собственика на конете от катастрофата със загиналото момиче край Кюстендил was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:05:25 INFO     ---Article with title: Хванаха жена да шофира с 3,60 промила was not added because contains words from article title exclusion list: ['шофир']
+31-12-2024 12:05:25 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=4	The number of found articles is: 0
+31-12-2024 12:05:25 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 4
+31-12-2024 12:05:26 INFO     ---News article: <<< Възрастна жена се нуждае от кислород, но апаратът се захранва на ток - такъв няма >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/vazrastna-zhena-se-nuzhdae-ot-kislorod-no-aparatat-se-zahranva-na-tok.html
+31-12-2024 12:05:26 INFO     ---Article with title: Побой пред свидетели, никой не подава сигнал: Момиче е със 7 избити зъба, транспортират го до София was not added because contains words from article title exclusion list: ['тир', 'дете']
+31-12-2024 12:05:26 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=5	The number of found articles is: 0
+31-12-2024 12:05:26 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 5
+31-12-2024 12:05:26 INFO     ---Article with title: „Конете постоянно излизат, мерки - няма“: Още 2 момичета са ранени в катастрофата със загиналата девойка was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:05:26 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=6	The number of found articles is: 0
+31-12-2024 12:05:26 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 6
+31-12-2024 12:05:26 INFO     ---Article with title: Смъртта на 18-годишното момиче край Кюстендил: Мълчание и падане на колене was not added because contains words from article title exclusion list: [' падан']
+31-12-2024 12:05:27 INFO     +++ Records for the news with „Върни пулса“ : 17-годишно момиче с мисия за купуване на  автоматични външни дефибрилатори with url https://btvnovinite.bg/bulgaria/varni-pulsa-17-godishno-s-misija-za-kupuvane-na-dva-avtomatichni-vanshni-defibrilatora.html and text 17-годишно момиче започна дарителска кампания за купуване на два автоматични външни дефибрилатора. Те ще бъдат сложени в най-популярните волейболни зали в София. От дете Мария е във волейболната зала. Казва, че на първо място винаги е здравето. „Когато се създаде идеята за тези дефрибрилатори, първото място, за което се сетих, че бих искала да има такива, беше както залата на Левски, така и на ЦСКА“, каза Мария - организатор на кампанията. Момичето се вдъхновява от примера в чужбина, където такива устройства има във всяка зала. Най-важна е бързата реакция, казва още Мария и обяснява, че дефибрилаторът увеличава шанса за спасяване от 50 до 70% на сто. За двата апарата са необходими още 8000 лева. „Сърдечният арест е най – честата причина за смърт не само в България, а навсякъде по света с над 10000 случая на сърдечен арест“, обясни Мария.  „Когато играех в Италия, буквално на спортен мач един мой колега си отиде заради липсата на подобни дефибрилатори. Изключително щастлив съм, че Левски и ЦСКА се обединяват за живота, за здравето на състезателите, пък и феновете в залите“, заяви Владимир Николов – волейболист. О За да събере средствата младата спортистка организира кампания. Ако искате и вие да помогнете да бъдат осигурени такива апарати в спортните зали, вижте как ТУК:  Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:27 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=7	The number of found articles is: 1
+31-12-2024 12:05:27 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 7
+31-12-2024 12:05:27 INFO     ---Article with title: 18-годишно момиче загина при катастрофа с 5 коня в Кюстендилско was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:05:27 INFO     ---Article with title: 93-годишна жена е спасена след пожар в София, къщата ѝ е напълно изгоряла (СНИМКИ) was not added because contains words from article title exclusion list: ['пожар']
+31-12-2024 12:05:27 INFO     ---Article with title: Въздушната линейка транспортира 29-годишна жена в кома до София was not added because contains words from article title exclusion list: ['тир']
+31-12-2024 12:05:28 INFO     +++ Records for the news with Мрачната статистика на светлите празници: Вълна на насилие срещу жени with url https://btvnovinite.bg/bulgaria/tamnata-statistika-na-svetlite-praznici-valna-na-domashno-nasilie-sreshtu-zheni.html and text Сигнали за насилие и по време на празничните почивни дни. За тях съобщават от полицията в различни градове в страната. В Монтана баща и син на 46 г. и 20 г., използвайки разтегателна палка, са нанесли побой на мъж на 23 г. и жена на 16 г. и двамата от гр. Монтана. Побоят е станал на 26 декември. Извършителите се оттеглили в неизвестна посока. Пострадалият млад мъж е с комоцио и охлузно-контузни рани, а момичето е с избити зъби. Те са настанени в болница. По късно бащата и сина са установени и са задържани. Пострадалите са настанени за лечение в МБАЛ-Монтана. Двамата извършители са установени около 11:45 ч. на 26.12.2024 г. и са задържани за срок до 24 ч. в РУ-Монтана. Работата по случая продължава РУ-Монтана. Велико Търново Два сигнала за домашно насилие са постъпили във Великотърновско. 43-годишен мъж от Свищов е нанесъл телесна повреда на 24-годишната си приятелка. След като прекарва вечерта на 21 декември в апартамента на извършителя, потърпевшата решава да си тръгне около 01:00 ч. Това е последният ѝ спомен, преди да се събуди със синини и рани по лицето в непознато за нея жилище. Двамата са живели на семейни начала от месец май 2023 г. до месец септември 2024 г. Мъжът, задържан за 24 часа, е криминално проявен и осъждан. По случая е започнато разследване. В Павликени пък 28-годишен мъж е нанесъл телесна повреда на 34-годишната си приятелка по време на семеен скандал. Ударът е бил в областта на лицето. Престъплението е извършено в квартирата на двойката, която живее на семейни начала. Мъжът, задържан за 24 часа, е криминално проявен и осъждан. По случая е започнато разследване. Силистра От полицията в Силистра съобщиха за образувано досъдебно производство за лека телесна повреда в условията на домашно насилие. На 23 декември около 13:30 часа в областния град  28-годишен ударил шамар и нанесъл удар с крак на жената, с която преди това съжителствал на семейни начала. На пострадалата е оказана медицинска помощ, а мъжът, който е известен на органите на реда и в момента изтърпява условна присъда за идентично престъпление, се издирва. Благоевградско В Петрич е задържан 38-годишен мъж, който след възникнал скандал в сутрешните часове на 23 декември е нанесъл удари в областта на рамото и крака на 29-годишна жена, с която живее на семейни начала. За случая е уведомена компетентната прокуратура и е образувано досъдебно производство. Стара Загора Два случая на насилие и в Старозагорско – вчера на телефон 112 е получен сигнал от 67-годишна жена, че на улица в гр. Казанлък, около 10:00 ч., след употреба на сила, ѝ е отнета найлонова торба с намиращите се в нея портмоне със сумата от 44 лв. и дебитна карта. В резултат на проведените оперативно-издирвателни мероприятия на полицейските служители, като извършител на деянието е установен 20-годишен мъж, който е задържан за срок до 24 часа. А във Второ РУ-Стара Загора, отново вчера, е получено съобщение от 45-годишна жена, че около 22:30 часа в дома ѝ в областния град, мъжът, с който съжителства на семейни начала - 37-годишен, осъществил домашно насилие спрямо нея. Мъжът е задържан за срок до 24 часа. Образувано е досъдебно производство. Районна прокуратура-Стара Загора привлече като обвиняем Н.М., на 37 г. за това, че на 21.12.2024 г. в гр. Гълъбово, обл. Стара Загора, причинил лека телесна повреда на своята майка, на 71 г., изразяваща се в разстройство на здравето, като деянието е извършено в условията на домашно насилие. Установено е, че Н.М. живеел в апартамент с майка си в гр. Гълъбово. На 21 декември 2024 г. между двамата възникнал скандал, като преди това Н.М. бил употребил наркотични вещества. Мъжът нанесъл удари по тялото на майка си, която била трудноподвижна. Подаден е бил сигнал на тел. 112. Обвиняемият Н.М. е бил задържан за срок до 72 часа с постановление на наблюдаващия прокурор. Пернишко 41-годишен перничанин е задържан за побой и заплахи спрямо 38-годишна жена с която живеели на семейни начала. Сигналът за противоправното деяние бил получен на 25 декември от потърпевшата. По нейни данни била бита и заплашвана от мъжа, на когото е наложена полицейска мярка за срок до 24 ч. На следващия ден бил подаден сигнал от Центъра за спешна медицинска помощ в областния град, че е постъпила 28-годишна пациентка, по нейни данни бита в пернишкото с. Мещица от мъжа с когото живеят на семейни начала. Медици констатирали лека телесна повреда, а служителите на полицията задържали 41-годишният мъж за срок до 24 ч. по Закона за МВР. Отново на 26 декември, в РУ – Радомир бил получен сигнал за бита 56-годишна жена в с. Стефаново от 61-годишеният й съпруг. На жената била причинена лека телесна повреда в условията на домашно насилие. Мъжът е задържан за срок до 24 ч. с полицейска заповед. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:28 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=8	The number of found articles is: 2
+31-12-2024 12:05:28 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 8
+31-12-2024 12:05:28 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=9	The number of found articles is: 2
+31-12-2024 12:05:28 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 9
+31-12-2024 12:05:29 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=10	The number of found articles is: 2
+31-12-2024 12:05:29 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 10
+31-12-2024 12:05:29 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=11	The number of found articles is: 2
+31-12-2024 12:05:29 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 11
+31-12-2024 12:05:29 INFO     ---Article with title: Млада жена загина в катастрофа в Стара Загора was not added because contains words from article title exclusion list: ['катастроф']
+31-12-2024 12:05:29 INFO     ---Article with title: Джебчия открадна парите на възрастна жена, с които гледа болния си син. След часове го задържат was not added because contains words from article title exclusion list: ['пари']
+31-12-2024 12:05:29 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=12	The number of found articles is: 2
+31-12-2024 12:05:29 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 12
+31-12-2024 12:05:30 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=13	The number of found articles is: 2
+31-12-2024 12:05:30 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 13
+31-12-2024 12:05:30 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=14	The number of found articles is: 2
+31-12-2024 12:05:30 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 14
+31-12-2024 12:05:30 INFO     ---Article with title: Търсят дом за кучето на изчезналото дете от с. Конаре, майката не го иска was not added because contains words from article title exclusion list: ['куче', 'дете']
+31-12-2024 12:05:30 INFO     ---Article with title: Откриха и задържаха ало измамник, представил се за внука на възрастна жена was not added because contains words from article title exclusion list: [' ало ']
+31-12-2024 12:05:30 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=15	The number of found articles is: 2
+31-12-2024 12:05:30 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 15
+31-12-2024 12:05:30 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=16	The number of found articles is: 2
+31-12-2024 12:05:30 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 16
+31-12-2024 12:05:31 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=17	The number of found articles is: 2
+31-12-2024 12:05:31 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 17
+31-12-2024 12:05:31 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=18	The number of found articles is: 2
+31-12-2024 12:05:31 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 18
+31-12-2024 12:05:32 INFO     ---News article: <<< Самоличност назаем: Заради грешка на НАП жена получи достъп до личните данни на друга >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/samolichnost-nazaem-zaradi-greshka-na-nap-zhena-poluchi-dostap-do-lichnata-informacija-na-druga.html
+31-12-2024 12:05:32 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=19	The number of found articles is: 2
+31-12-2024 12:05:32 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 19
+31-12-2024 12:05:32 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=20	The number of found articles is: 2
+31-12-2024 12:05:32 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 20
+31-12-2024 12:05:32 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=21	The number of found articles is: 2
+31-12-2024 12:05:32 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 21
+31-12-2024 12:05:33 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=22	The number of found articles is: 2
+31-12-2024 12:05:33 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 22
+31-12-2024 12:05:33 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=23	The number of found articles is: 2
+31-12-2024 12:05:33 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 23
+31-12-2024 12:05:33 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=24	The number of found articles is: 2
+31-12-2024 12:05:33 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 24
+31-12-2024 12:05:34 INFO     ---Article with title: Полицията издирва майка с дете, станали свидетели на тежък инцидент was not added because contains words from article title exclusion list: ['издирва ', 'инцидент', 'дете']
+31-12-2024 12:05:34 INFO     ---Article with title: Блъснатите на тротоар майка и две деца: Започва разследване на тежкия инцидент was not added because contains words from article title exclusion list: ['блъсна', 'инцидент', 'деца']
+31-12-2024 12:05:34 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=25	The number of found articles is: 2
+31-12-2024 12:05:34 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 25
+31-12-2024 12:05:34 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=26	The number of found articles is: 2
+31-12-2024 12:05:34 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 26
+31-12-2024 12:05:34 INFO     ---Article with title: Докато чакат на светофар: Майка и двете ѝ деца са ударени от кола в Ямбол was not added because contains words from article title exclusion list: [' кола', 'деца']
+31-12-2024 12:05:35 INFO     +++ Records for the news with След смъртта на момче и момиче заради задушаване от газ: Кога газовата бутилка е опасна? with url https://btvnovinite.bg/bulgaria/sled-smartta-na-momche-i-momiche-zaradi-zadushavane-ot-gaz-koga-gazovata-butilka-e-opasna.html and text Продължава разследването на случая с двамата починали младежи, които бяха намерени в жилище в Благоевград. Задушаване с газ е причината за смъртта на 18-годишната Илияна Котакова и 19-годишния Алекс Христов. Кога бутилките, съдържащи пропан-бутан, могат да са опасни? Уредите с бутилки, съдържащи пропан-бутан, могат да са опасни, ако не се спазват всички мерки за сигурност при работа с тях, предупреждават специалисти. 80% от капацитета на газовите бутилки трябва да е запълнен. В противен случай при промяна в температурата на околната среда има риск от взрив или изтичане на пропан-бутан.  Те не бива да се съхраняват в близост до източници на топлина, като печки или слънчева светлина. Бутилки за бита не бива да се пълнят на бензиностанции и трябва винаги да се съхраняват в пространства, в които може да се осигури вентилация. Като дългогодишен майстор на газови уредби Красимир Петров казва, че най-често проблемите възникват заради уреди, предназначени за употреба на открито, които обаче се ползват в затворени помещения.  При употребата в затворено и непроветриво помещение се получава непълно изгаряне на пропан-бутана, което води до отделяне на токсичния въглероден оксид. Високата концентрация на въглероден оксид в затворено помещение е опасна за живота на хората, поемайки го чрез дишането, парализира дейността на белите им дробове.  Друга причина за проблеми е неправилно пълнене - много често бутилките се препълват, което може да доведе до изпускане на газ или взрив. До препълване се стига и защото невинаги пропан-бутанът се изразходва до край. От началото на годината контролните органи са проверили над 1500 автомобилни газстанции, както и пунктове за пълнене на газови бутилки и други. Съставени са 25 акта. В три от случите са установени накрайници за нерегламентирано пълнене на газови бутилки за бита до газколонки.  Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:35 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=27	The number of found articles is: 3
+31-12-2024 12:05:35 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 27
+31-12-2024 12:05:36 INFO     ---News article: <<< Международният редактор Илияна Димитрова стана майка >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/mezhdunarodnijat-redaktor-ilijana-dimitrova-stana-majka.html
+31-12-2024 12:05:36 INFO     ---Article with title: Инцидентът с момче и момиче в Благоевград: Задушили са се в съня си, приятели ги открили was not added because contains words from article title exclusion list: ['инцидент']
+31-12-2024 12:05:36 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=28	The number of found articles is: 3
+31-12-2024 12:05:36 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 28
+31-12-2024 12:05:37 INFO     +++ Records for the news with Откриха мъртви момче и момиче в къща в Благоевград (ВИДЕО) with url https://btvnovinite.bg/bulgaria/otkriha-martvi-momche-i-momiche-v-kashta-v-blagoevgrad.html and text Около 19:15 часа днес в жилище в Благоевград са открити починали 18-годишно момиче от Благоевград и 19-годишно момче от с. Рилци. Телата им са открити в квартира на улица „Н. Петрини“ в Благоевград. По първоначална информация по телата няма следи от насилие. В момента са в ход процесуално-следствени действия за установяване на всички факти и обстоятелства, свързани с инцидента, съобщиха от полицията. По-рано днес близки съобщиха в социалните мрежи, че двамата младежи са в неизвестност.  По първоначална информация, те са починали след задушаване от печка на газ. Пред къщата, където е квартирата, има екипи на полицията. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:37 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=29	The number of found articles is: 4
+31-12-2024 12:05:37 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 29
+31-12-2024 12:05:38 INFO     +++ Records for the news with Коледно чудо: Младежи помогнаха на своя съученичка да вижда отново with url https://btvnovinite.bg/bulgaria/koledno-chudo-mladezhi-pomognaha-na-svoja-sauchenichka-da-vizhda-otnovo.html and text Деца помогнаха на своя съученичка, която страда от проблем с очите, да върне зрението си дни преди коледните празници. Нейни приятели успяват да организират кампания и да съберат средствата за операцията ѝ.  Преди две години зрението на Кристина се влошава.  „Забелязахме , че се спъва, има нужда от нашата помощ и разбрахме, че не е добре със зрението“, разказва Даяна Севданова, съученичка на Кристина. „Ние ѝ помагахме да се придвижва по стъпалата, да я водим до кабинетите. Разбрахме че има катаракта, което е перде на очите“, добавя Стефани Бориславова. Кристина живее само с майка си. Тя обаче няма достатъчно средства за операцията. „Историята започна в края на миналата учебна година, когато ми сигнализираха колегите, които работят с нея, че тя прогресивно губи зрението си и все по-трудно вижда. И в началото на тази учебна година ние установихме, че нещата са се влошили значително. Майката сподели, че има заделени средства, но няма да бъдат достатъчни“, разказва Петя Неделчева, директор на СУ „Бачо Киро“ в Павликени. Съучениците на Кристина започват дарителска кампания в училище. Само за няколко дни събират над 3000 лева. „Решихме по някакъв начин да я изненадаме за Коледа и да ѝ направим подарък. Чудихме се как да го направим и накрая решихме да направим кампания и да съберем парички“, казва Радомир Тодоров, съученик на Кристина.  Коледно чудо - днес вече Кристина вижда, а съвсем скоро ще се върне и в училище при приятелите си. „Сега мога да чета. Сега светът е по-различен. Това е моят подарък за Коледа“, споделя Кристина Цвяткова.   Кампанията продължава. Със събраните пари съучениците ѝ ще я зарадват и с коледни подаръци под елхата. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=30	The number of found articles is: 5
+31-12-2024 12:05:38 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 30
+31-12-2024 12:05:38 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=31	The number of found articles is: 5
+31-12-2024 12:05:38 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 31
+31-12-2024 12:05:39 INFO     ---News article: <<< Останки от животни, глави и органи: Жена сигнализира за ужасяваща гледка в Разлог >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/ostanki-ot-zhivotni-glavi-i-organi-zhena-signalizira-za-uzhasjavashta-gledka-v-razlog.html
+31-12-2024 12:05:39 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=32	The number of found articles is: 5
+31-12-2024 12:05:39 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 32
+31-12-2024 12:05:40 INFO     ---News article: <<< След репортаж по bTV: Майката, дарила черния си дроб на дъщеря си, вече има ТЕЛК решение >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/sled-reportazh-po-btv-majkata-darila-chernija-si-drob-na-dashterja-si-veche-ima-telk-reshenie.html
+31-12-2024 12:05:41 INFO     ---News article: <<< Илияна Йотова: Повече жени на лидерски позиции е гаранция за успех >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/ilijana-jotova-poveche-zheni-na-liderski-pozicii-e-garancija-za-uspeh.html
+31-12-2024 12:05:41 INFO     ---News article: <<< 4 години затвор за мъж, откъснал две златни колиета от врата на възрастна жена >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/4-godini-zatvor-za-mazh-otkasnal-dve-zlatni-kolieta-ot-vrata-na-vazrastna-zhena.html
+31-12-2024 12:05:41 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=33	The number of found articles is: 5
+31-12-2024 12:05:41 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 33
+31-12-2024 12:05:41 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=34	The number of found articles is: 5
+31-12-2024 12:05:41 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 34
+31-12-2024 12:05:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=35	The number of found articles is: 5
+31-12-2024 12:05:42 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 35
+31-12-2024 12:05:42 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=36	The number of found articles is: 5
+31-12-2024 12:05:42 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 36
+31-12-2024 12:05:42 INFO     ---Article with title: Пиян и дрогиран уби съпругата си пред трите им деца, чакат го 18 години затвор was not added because contains words from article title exclusion list: ['деца']
+31-12-2024 12:05:43 INFO     ---News article: <<< 15 години затвор за баща от Варна, блудствал със собствената си дъщеря >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/15-godini-zatvor-poluchi-varnenec-bludstval-sas-sobstvenata-si-dashterja.html
+31-12-2024 12:05:43 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=37	The number of found articles is: 5
+31-12-2024 12:05:43 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 37
+31-12-2024 12:05:44 INFO     ---News article: <<< Зов за помощ: 37-годишна жена се нуждае от подкрепа за лечение в Турция >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/zov-za-pomosht-37-godishna-zhena-se-nuzhdae-ot-podkrepa-za-lechenie-v-turcija.html
+31-12-2024 12:05:44 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=38	The number of found articles is: 5
+31-12-2024 12:05:44 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 38
+31-12-2024 12:05:44 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=39	The number of found articles is: 5
+31-12-2024 12:05:44 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 39
+31-12-2024 12:05:44 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=40	The number of found articles is: 5
+31-12-2024 12:05:44 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 40
+31-12-2024 12:05:45 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=41	The number of found articles is: 5
+31-12-2024 12:05:45 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 41
+31-12-2024 12:05:45 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=42	The number of found articles is: 5
+31-12-2024 12:05:45 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 42
+31-12-2024 12:05:46 INFO     ---News article: <<< „Казвам се Петя и съм зависима“, „Започнах в 4. клас“, „Гледах на майка си като на банкомат“ >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/predavania/tazi-sabota-i-nedelia/kazvam-se-petja-i-sam-zavisima-zapochnah-v-4-klas-gledah-na-majka-si-kato-na-bankomat.html
+31-12-2024 12:05:46 INFO     ---News article: <<< На заден ход: Бус прегази жена в Старозагорско >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/na-zaden-hod-bus-pregazi-zhena-v-starazagorsko.html
+31-12-2024 12:05:46 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=43	The number of found articles is: 5
+31-12-2024 12:05:46 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 43
+31-12-2024 12:05:47 INFO     ---News article: <<< Разследват бой между ученички в Кюстендил >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/razsledvat-boj-mezhdu-uchenichki-v-kjustendil.html
+31-12-2024 12:05:47 INFO     ---Article with title: Възрастна жена носи златни кюлчета за 49 000 лева на телефонен измамник, но среща своите "ангели" was not added because contains words from article title exclusion list: ['телефон']
+31-12-2024 12:05:47 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=44	The number of found articles is: 5
+31-12-2024 12:05:47 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 44
+31-12-2024 12:05:48 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=45	The number of found articles is: 5
+31-12-2024 12:05:48 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 45
+31-12-2024 12:05:48 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=46	The number of found articles is: 5
+31-12-2024 12:05:48 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 46
+31-12-2024 12:05:48 INFO     ---Article with title: В името на доброто: 12-годишно момиче от Бургас се нуждае от спешна бъбречна трансплантация was not added because contains words from article title exclusion list: ['добро']
+31-12-2024 12:05:49 INFO     +++ Records for the news with С опасност за живота: Жена е брутално пребита от мъжа си в Костинброд with url https://btvnovinite.bg/bulgaria/s-opasnost-za-zhivota-zhena-e-brutalno-prebita-ot-mazha-si-v-kostinbrod.html and text Жена е с опасност за живота след пореден случай на домашно насилие. По данни на прокуратурата в нощта на 2 декември след битов скандал в Костинброд мъж пребива жената, с която живее на семейни начала от 20 години. Жертвата сама успява да стигне до болница в София. Тя е с шест средни телесни повреди и опасност за живота. Първоначално отказва да разкаже какво се е случило, но в последствие признава за скандал с мъжа си. „Не е искала да посочи причините за телесните повреди. В последствие, след беседи с полицията, е казала, че тази телесна повреда е нанесена от лицето, с което е съжителствала. Той е неосъждан, реабилитиран е, имал е предходни осъждания за кражби. Веднага е бил задържан. След привличането му като обвиняем се е възползвал от правото си да не дава обяснения“, заяви наблюдаващият прокурор от Районна прокуратура-Костинброд.  Само за половин година - над 60 са подадените сигнали за домашно насилие в Окръжна прокуратура София. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:49 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=47	The number of found articles is: 6
+31-12-2024 12:05:49 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 47
+31-12-2024 12:05:50 INFO     +++ Records for the news with Две жени пребиха и заплашиха с убийство трета в центъра на Шумен with url https://btvnovinite.bg/bulgaria/dve-zheni-prebiha-i-zaplashiha-s-ubijstvo-treta-v-centara-na-shumen.html and text Задържаха две жени, обвинени в нанасяне на телесна повреда на тяхна позната и отправяне на закани за убийство към нея. Извършителките са арестувани за срок до 72 часа с постановление на наблюдаващ прокурор от Районната прокуратура в Шумен. За двете престъпления привлечени към наказателна отговорност са 29-годишната А.П. и 28-годишната С.Ю. Предстои в съда да бъдат внесени искания за налагане на най-тежката мярка за неотклонение „задържане под стража“ спрямо тях. В обедните часове на 3 декември двете жени видели своя позната, с която били във влошени отношения, в центъра на Шумен. Те решили да се саморазправят с нея и нападнали 51-годишната жена, като ѝ нанесли удари по тялото и главата, предава БТА. Освен побоя, двете жени отправили закани за убийство към потърпевшата. Свидетели на случката подали сигнал на 112. Дошлият на място полицейски екип прекратил конфликта и задържал двете нападателки. Работата по случая продължава под ръководството и надзора на Районната прокуратура в Шумен. Днес съдът ще се произнесе по исканията за задържане под стража на двете жени. Двете жени първоначално бяха задържани за срок до 24 часа в полицейския арест в Шумен. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=48	The number of found articles is: 7
+31-12-2024 12:05:50 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 48
+31-12-2024 12:05:50 INFO     ---Article with title: Годеницата на загиналия пилот капитан Венцислав Дункин роди момиченце was not added because contains words from article title exclusion list: ['роди']
+31-12-2024 12:05:50 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=49	The number of found articles is: 7
+31-12-2024 12:05:50 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 49
+31-12-2024 12:05:51 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=50	The number of found articles is: 7
+31-12-2024 12:05:51 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 50
+31-12-2024 12:05:52 INFO     +++ Records for the news with Насилие в дом за възрастни в с. Филиповци: Говори дъщерята на пострадалия 84-годишен мъж with url https://btvnovinite.bg/bulgaria/nasilie-v-dom-za-vazrastni-v-s-filipovci-govori-dashterjata-na-postradalija-84-godishen-mazh.html and text Прокуратурата разследва насилие в дом за възрастни след като 86-годишен мъж е с трайно увредено зрение след посегателство. Действието се развива в село Филиповци. Възрастният мъж е настанен в дома за възрастни хора „Абланица“. Преди дни дъщеря му разбира, че баща ѝ е пострадал. „Казаха ми, че баща ми е паднал от леглото и спешно трябва да тръгна към дома или направо да дойда в болнцата в Перник. Аз го заварих вече в ИСУЛ настанен по спешност в очното. „Той е паднал от леглото“, така ми каза Радостина управителката в дома. Но всеки един от лекарите изрази съмнение, че това е падане от легло, и по-скоро е насилствено деяние“, казва дъщерята на пострадалия мъж. Лекарите установяват и други наранявания по мъжа. А сигнали за агресия е имало и преди - дъщерята разказва, че баща ѝ е пострадал от съседа си по стая. „Баща ми ми обърна внимание преди известно време, че се страхува от него и че той го удря със стол. Информирах Радостина, д-р Станкова, която се представя за собственичка на дома, както и сина на собственичката. Той обеща да прегледа камерите да види дали има данни за насилие, но такова действие не последва“, казва още дъщерята.  Домът е частен. Правим опит да се свържем с директора му. След дълго наше настояване, управителят на дома дойде при нас. Разследването на прокуратурата показва, че нападението е станало преди 5 дни, в дома. Мъжът е ударен със стол. След травмата е с трайно увредено зрение. Образувано е досъдебно производство. Агенцията за качеството на социалните услуги прави проверка след репортаж по обществената телевизия. „Не се идентифицират данни за насилие в рамките на правомощията на Комисията. Екипът на социалната услуга е оказал съдействие при инцидента, своевременно е извикана спешна помощ и са уведомени близките на пострадалия“, казват в своя позиция от Агенцията. На пострадалия мъж е направена операция и е изписан от болница ИСУЛ. В момента е при близките си в стабилно състояние, но освен с физически травми и в шок. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK  from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:52 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=51	The number of found articles is: 8
+31-12-2024 12:05:52 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 51
+31-12-2024 12:05:53 INFO     +++ Records for the news with Криминална история с неочакван край: Върнаха 60 000 лв. на възрастна жена with url https://btvnovinite.bg/bulgaria/kriminalna-istorija-s-neochakvan-kraj-varnaha-60-000-lv-na-vazrastna-zhena.html and text Криминална история завърши с неочакван край – след задържането на двамата извършители на най-голямата телефонна измама от началото на годината в Добричко, жертвата си върна парите. През февруари възрастна жена даде 60 000 лева на ало измамници. Всички участници по веригата са установени, а извършителите са в ареста. „Г-жо Иванова, заповядайте. Това са документите, които удостоверяват, че сумата от 60 000 лева, които дадохте на ало измамниците е възстановена“, казва д-р Даниел Илиев, наблюдаващ прокурор. След задържането на извършителите, 83-годишната Желязка Иванова не вярваше, че ще си получи парите. „Как да вярвам – има много мошеници. Един път ми звъннаха, че апартаментът  на сина ми се е запалил. Добре, ама аз казах: „Ти се скрий, аз ще се оправя“. Звъня на сина ми, той каза, че няма нищо такова. Но този път казаха, че синът ми е със счупен крак на четири места и трябват пари. И аз се подлъгах“, разказва Желязка Иванова. „Действително рядко се случва да се връщат пари от ало измама. Сумата е преведена от двамата извършители и по-точно от техните близки, тъй като двамата в момента са задържани в следствения арест“, обяснява д-р Даниел Илиев. Прокуратурата има доказателства, че извършителите са съпричастни и към още шест измами във Варна и в Бургас. „Възстановяването на щетите от тези престъпления зависи единствено от волята на извършителите“, посочва още д-р Даниел Илиев. Очаква се до края на годината разследването да приключи и двамата мъже да бъдат изправени пред съда. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:53 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=52	The number of found articles is: 9
+31-12-2024 12:05:53 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 52
+31-12-2024 12:05:53 INFO     ---Article with title: Катастрофа след катастрофа: Две злополуки с камиони и коли, една жена загина (ОБЗОР) was not added because contains words from article title exclusion list: ['катастроф', 'камион']
+31-12-2024 12:05:54 INFO     ---News article: <<< За първи път в 155-годишната си история БАН има жена за председател >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://btvnovinite.bg/bulgaria/za-parvi-pat-v-155-godishnata-si-istorija-na-e-izbrana-zhena-za-predsedatel.html
+31-12-2024 12:05:54 INFO     +++ Records for the news with Атанас Илков: Има ръст при регистрираното домашно насилие, защото жертвите са повярвали на институциите with url https://btvnovinite.bg/bulgaria/ministar-ilkov-ima-rast-pri-registriranoto-domashno-nasilie-zashtoto-zhertvite-sa-povjarvali-na-instituciite.html and text „Трябва да обединим общите си усилия, за да покажем на обществото, че институциите работят така, че да отговорят на очакванията за един добър обществен ред“. Това заяви служебният министър на вътрешните работи Атанас Илков на Националното съвещание на прокуратурата и МВР във връзка със случаите на агресия на обществени места и домашно насилие. Той говори още за нуждата да се повиши доверието на обществото чрез усилията на двете институции. Министър Илков отбеляза, че в процеса за обществен ред е ангажирано и цялото общество, което в много случаи е наблюдател на заобикалящите ни процеси, но единствената позиция е да критикуват или МВР, или прокуратурата, че не е на мястото си и не работи ефективно. Във връзка с домашното насилие министърът отбеляза, че през 2022 г. е създаден сектор в Главна дирекция „Национална полиция“, заработил активно с всички институции и неправителствени организации, като резултатите не са закъснели. Той отчете през 2024 г. увеличение на този тип престъпления с 18% и обясни данните с това, че жертвите на домашно насилие са повярвали на институциите. Според него трябва да има още по-добро взаимодействие с прокуратурата, за да идва крайният ефект по-бързо. Предвиден е изключително голям ресурс за обезпечаване на търговските обекти и местата, където има съсредоточаване на много хора и парични средства, така че да бъдем адекватни и да не допуснем извършването на тежки престъпления, посочи още Атанас Илков. Той отбеляза също така, че засилено полицейско присъствие по празниците ще има и в малките населени места. Вътрешният министър отчете сериозно намаление на убитите при пътнотранспортни произшествия. „Ще бъдем непримирими към всеки нарушител“, каза той. На съвещанието, организирано от и.ф. главен прокурор Борислав Сарафов, присъстват ръководни служители в МВР, както и всички ръководители на апелативни, окръжни и районни прокуратури. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:54 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=53	The number of found articles is: 10
+31-12-2024 12:05:54 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 53
+31-12-2024 12:05:56 INFO     +++ Records for the news with Десетки организации с писмо до премиера: Къде са обещаните средства за борба с домашното насилие? with url https://btvnovinite.bg/bulgaria/desetki-grazhdanski-organizacii-s-pismo-do-premiera-kade-sa-obeshtanite-sredstva-za-borba-s-domashnoto-nasilie.html and text 41 граждански организации подписаха писмо до служебния премиер Димитър Главчев, в което призовават Министерския съвет за спешни действия по приемането на проекта за Координационен механизъм и питат къде са обещаните финансови средства в размер на 450 хиляди лева, определени за борба с домашното насилие през 2024 г. За периода 2024 - 2026 г. са отделени общо над 6,2 млн. лв. за мерки срещу домашното насилие. Това прие Националния съвет за превенция и защита от домашното насилие (НСПЗДН) през май месец и чака повече от половин година да бъде разгледан и приет от Министерски съвет. Това се случва на фона на „16 дни активизъм“ - световно движение, което стартира на 25-и ноември, Международният ден за елиминиране на насилието срещу жени и период, който обединява активисти и граждански организации в борбата с насилието над жени. Само за последните два дни в Перник са подадени три сигнала за пребити жени в условия на домашно насилие. Трима мъже са привлечени като обвиняеми и задържани за срок до 72 часа с прокурорско постановление. Координационният механизъм за защита от домашно насилие е система от правила и процедури, които осигуряват взаимодействие между институциите, местните власти, неправителствения сектор и социалните услуги. Целта му е да се гарантира бърза и ефективна помощ за пострадалите от домашно насилие чрез координирани действия при всеки конкретен случай. Това включва спешна подкрепа, зачитане на правата на пострадалите, своевременно предприемане на мерки и спазване на етични стандарти. Координационният механизъм чака повече от половин година да бъде разгледан и приет от Министерски съвет. До момента няма признаци на влизането на такава точка в дневния ред на заседанията на МС, а без това Законът за защита от домашно насилие не може да бъде прилаган. В допълнение от организациите припомнят, че все още липсва информация защо няма никакви отпуснати средства за неправителствения сектор от обявените за 2024 г. 450 000 лева съгласно приетата с решение на Министерски съвет от 27.09.2024 г. Национална програма за превенция и защита от домашното насилие за 2024 – 2026 г. „Това допълнително уронва общественото доверие и вярата в сериозността на държавната намеса, в частност наличието на действителен стремеж към ефективност, вследствие на осъществената законодателната реформа“, допълват в писмото си организациите. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:56 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=54	The number of found articles is: 11
+31-12-2024 12:05:56 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 54
+31-12-2024 12:05:56 INFO     ---Article with title: Отбелязваме Световния ден за борба със СПИН: Майка с ХИВ има здрави деца was not added because contains words from article title exclusion list: ['здрави', 'деца']
+31-12-2024 12:05:56 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=55	The number of found articles is: 11
+31-12-2024 12:05:56 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 55
+31-12-2024 12:05:57 INFO     +++ Records for the news with При гъста мъгла и ураганен вятър: Спасиха момче и момиче, изгубили се на Витоша (СНИМКИ) with url https://btvnovinite.bg/bulgaria/pri-gasta-magla-i-uraganen-vjatar-spasiha-momche-i-momiche-izgubili-se-na-vitosha-snimki.html and text Екип от девет души на Планинска спасителна служба спаси изгубили се момче и момиче в планината в района на връх Селимица. Те били тръгнали към Черни връх, но заради гъстата мъгла и ураганния вятър са изгубили пътеката. Сигналът за тях е получен в събота следобед в Централен денонощен Пост на ПСС през тел. 112. Заради снеговалежите имало паднали дървета на пътя, които възпрепятствали автомобилите на ПСС да достигнат до изходна точка. Благодарение на навременната и експедитивна намеса на аварийните екипи на Столична община, пътят е разчистен и спасителите достигат до туристите. Те са били в начална фаза на хипотермия.  Организиран е транспорт и са свалени на безопасно място. Условията са тежки и няма достатъчно сняг за придвижване на моторни шейни, което допълнително е усложнило акцията.   Вече всички са по домовете си невредими, съобщават от ПСС.  Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:57 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=56	The number of found articles is: 12
+31-12-2024 12:05:57 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 56
+31-12-2024 12:05:58 INFO     +++ Records for the news with Месец след бруталното убийство на жена: Все още не е осветена алеята в кв. „Младост“ with url https://btvnovinite.bg/bulgaria/mesec-sled-brutalnoto-ubijstvo-na-zhena-vse-oshte-ne-e-osvetena-alejata-v-kv-mladost.html and text История с продължение. Изпълни ли общината обещанието си да освети градинката, в която бивш затворник уби възрастна жена? Екипът ни провери. Само преди месец в кв. „Младост“ беше нападната брутално и убита 77-годишна жена. След серия репортажи, в които ви разказахме за липсата на осветление и намиращия се в близост пазар „Пътеките", превърнал се в гето, днес обстановката е същата.   Само на метри от мястото има спирка на градския транспорт, а в близост има две училища, в които учат около 2500 деца, които всеки ден минават по този маршрут. Алеята, по която в нощта на изборите 77-годишната жена се е прибирала към своя дом, когато е нападната, отново е тъмна. На същото място срещаме Мария Петкова, заедно с 13-годишната ѝ дъщеря.  „Тя има приятели от другата страна на булеварда и всяка вечер  едните родители или другите се ангажираме само, за да не минават сами по този път“, казва майката.  Според живеещите в квартала от инцидента досега единственото една лампа е започнала да свети.   „Тук нищо не виждам да се е променило, нито е по светло ,нито по приятно за минаване. Детето ми минава всяка вечер от тук“, казва Тина Такева. Освен спирка на градския транспорт в близост има и училище. Именно учениците от клуба по журналистика многократно са подавали сигнали.   „Правили сме много подписки, които да решат този проблем, но и от тях няма много полза“, разказва Бистра Кирилова. Преди месец ви разказахме и за Райчо, който живее в изоставените павилиони, които са частна собственост.  „Идват гледат ме, познават ме, знаят ме. Казаха да минават няколко месеца и да се махам от тука“, казва Райчо. От „Пазари север“ са измерили с геодезисти докъде се простира общинската собственост, но и там осветлението не е поставено. „От другата седмица сме се договорили с общината да подобрим осветлението на пазара и около пазара“, коментира Станислав Тодоров, директор на „Пазари Север“.  И районната администрация обеща - до седмица ще е по светло. „През следващата седмица предстои да се подменят самите осветителни тела (които и в момента работят) с друг тип, гарантиращи по-добра осветеност“, добавят от Столичната община. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:58 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=57	The number of found articles is: 13
+31-12-2024 12:05:58 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 57
+31-12-2024 12:05:59 INFO     +++ Records for the news with Арестуваха мъж по подозрение, че е убил майка си във Врачанско with url https://btvnovinite.bg/bulgaria/arestuvaha-mazh-po-podozrenie-che-e-ubil-majka-si-vav-vrachansko.html and text Задържаха мъж във Врачанско, заподозрян в убийството на майка си, съобщи МВР. В районното управление в Бяла Слатина във вторник е постъпил сигнал за починала 82-годишна жена в жилището си в село Алтимир. Първоначалният оглед не показал видими следи от насилие. Имало обаче разследване, което изяснило, че  причината за смъртта е мозъчна травма, причинена от удар. Криминалистите установили  безспорни доказателства за съпричастност към деянието и задържали сина на жената. 65-годишният син на убитата жена е задържан за 72 часа. Осъждан е, не се уточнява за какво. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:05:59 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=58	The number of found articles is: 14
+31-12-2024 12:05:59 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 58
+31-12-2024 12:05:59 INFO     ---Article with title: Майката на родилката, чието бебе почина: Можеше да има здраво момиченце was not added because contains words from article title exclusion list: ['бебе', 'роди']
+31-12-2024 12:05:59 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=59	The number of found articles is: 14
+31-12-2024 12:05:59 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 59
+31-12-2024 12:06:00 INFO     ---Article with title: Млада жена роди в линейка, бебето е починало was not added because contains words from article title exclusion list: ['бебе', 'роди']
+31-12-2024 12:06:00 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=60	The number of found articles is: 14
+31-12-2024 12:06:00 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 60
+31-12-2024 12:06:00 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=61	The number of found articles is: 14
+31-12-2024 12:06:00 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 61
+31-12-2024 12:06:01 INFO     +++ Records for the news with Сарафов разпореди незабавни действия срещу насилието на обществени места и домашното насилие with url https://btvnovinite.bg/bulgaria/sarafov-razporedi-nezabavni-dejstvija-sreshtu-nasilieto-na-obshtestveni-mesta-i-domashnoto-nasilie.html and text Изпълняващия функцията на главен прокурор Борислав Сарафов разпореди на ръководителите на районни и окръжни прокуратури в страната да изискат от органите на МВР по места незабавни действия във връзка със зачестилите случаи на проявено насилие, извършени по хулигански или дискриминационни подбуди на обществени места, при управление на МПС, както и домашно насилие, съобщиха от прокуратурата. Органите на МВР следва да уведомят съответните прокуратури за всички неприключени материали, свързани с упражнено насилие. При наличие на съответните данни за извършено престъпление, незабавно ще бъдат образувани досъдебни производства. Съответните структури на МВР следва незабавно да уведомяват компетентната прокуратура за всички новопостъпили сигнали, свързани с упражнено насилие, като при необходимост прокурорите ще дават конкретни указания за бързо провеждане на допълнителни оперативно-издирвателни действия. Наблюдаващите прокурори по досъдебните производства, свързани с прояви на насилие на публични места, при шофиране, както и при случаи на домашно насилие, следва да преценяват повишената обществена опасност на деянията при определяне на мерките за неотклонение на извършителите. В седемдневен срок магистратите, които наблюдават такива преписки и дела, трябва да изготвят доклади за хода на проверките и разследванията, които да представят на своите административни ръководители. Те от своя страна имат двуседмичен срок да изготвят обобщени доклади, които да предоставят на ръководителите на апелативните прокуратури. В триседмичен срок петте апелативни района следва да изпратят до и.ф. главен прокурор обобщената информация за работата по тези преписки и дела, както и за предприетите мерки. Заповедта на главния прокурор Борислав Сарафов е подписана днес, 27 ноември. Последвайте ни за още актуални новини в Google News Showcase Последвайте btvnovinite.bg във VIBER Последвайте btvnovinite.bg в INSTAGRAM Последвайте btvnovinite.bg във FACEBOOK  from source: btvnovinite.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:01 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=62	The number of found articles is: 15
+31-12-2024 12:06:01 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 62
+31-12-2024 12:06:01 INFO     ---Article with title: Майка издирва сина си: 10 дни по-късно е открит в река Огоста убит was not added because contains words from article title exclusion list: ['издирва ']
+31-12-2024 12:06:01 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=63	The number of found articles is: 15
+31-12-2024 12:06:01 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 63
+31-12-2024 12:06:02 INFO     ---Article with title: Пореден инцидент с електрическа тротинетка: Жена е в спешното, извършителят е избягал was not added because contains words from article title exclusion list: ['инцидент']
+31-12-2024 12:06:02 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=64	The number of found articles is: 15
+31-12-2024 12:06:02 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 64
+31-12-2024 12:06:02 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=65	The number of found articles is: 15
+31-12-2024 12:06:02 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 65
+31-12-2024 12:06:02 INFO     ***Article with title: <<< Протести в страната за Международния ден за елиминиране на насилието срещу жени >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:06:02 INFO     	For media btvnovinite.bg (TV news) searching in page https://btvnovinite.bg/bulgaria/?page=66	The number of found articles is: 15
+31-12-2024 12:06:02 INFO     Info: ('btvnovinite.bg', 'TV news')
+Current page is 66
+31-12-2024 12:06:03 INFO     The info of the df after transform it from the _data_dict is: (15, 9) (rows/cols)
+31-12-2024 12:06:03 INFO     Info: ('btvnovinite.bg', 'TV news')
+Last page was: 66
+31-12-2024 12:06:03 INFO     The 'export/btvnovinite.bg/btvnovinite.bg_archive.csv' was updated with 15 articles
+31-12-2024 12:06:03 INFO     @The article collection for btvnovinite.bg is done!
+31-12-2024 12:06:03 INFO     Opening: 'export/bntnews.bg/bntnews.bg_archive.csv' >>>
+31-12-2024 12:06:03 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=1	The number of found articles is: 0
+31-12-2024 12:06:03 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 1
+31-12-2024 12:06:03 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=2	The number of found articles is: 0
+31-12-2024 12:06:03 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 2
+31-12-2024 12:06:04 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=3	The number of found articles is: 0
+31-12-2024 12:06:04 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 3
+31-12-2024 12:06:04 INFO     +++ Records for the news with Жестока агресия: Момче и момиче от Монтана са в "Пирогов" след побой with url https://bntnews.bg/news/zhestoka-agresiya-momche-i-momiche-ot-montana-sa-v-pirogov-sled-poboi-1320297news.html and text 16-годишно момиче от Монтана е в "Пирогов" с тежки травми след жесток побой с палка. Брутално пребит е и 23-годишният ѝ приятел, който след преглед в лечебното заведение е пуснат за домашно лечение. Случаят е от сутринта на 26 декември. Нападателите са баща и син от Монтана, които са задържани и след 24 часа пуснати на свобода. Обвинения за жестоката агресия още не са повдигнати. Кадри от камера за видеонаблюдение, заснети сутринта след Коледа, показват оживения булевард "Александър Стамболийски" близо до центъра на Монтана и младежи, които се движат по тротоара. Вижда се кола, която спира до тях. Камерата е запечатала това, което са видели много очевидци. "Както си стоях и ходеха преди мен двама човека, спря до тях близо кола, излязоха и ги нападнаха. Биха ги в продължение на няколко минути. И ние опитахме да се свържем с Бърза помощ обаче те не ни вдигнаха", разказа очевидец. Няколко часа по-късно за бруталното нападение с палка и юмруци са задържани баща и син - на 46 и на 20 години. След 24 часа в ареста са освободени. Предполагаемата причина за агресията е спречкване в дискотеката между двете момчета, но според очевидци тогава всичко приключило със стискане на ръцете. Пребитите младежи първо са откарани в болницата в Монтана - момчето там е диагностицирано с комоцио, а момичето с по-тежки травми. Ученичката е приета в "Пирогов".  "Поставят и шина на горната челюст, оказа се, че е счупена горната челюст. Тук от Монтана не ни казаха, че е счупена. Там го установиха хората, и скула. В момента е на лечение в "Пирогов", обясни бащата на пребитото момиче Венцислав Стаменов. "Тези деца нямат само физически травми, имат и емоционални. Това колко време ще се преодолява", коментира съпругата на бащата на пребитото момиче Албена Стаменова. Семейството на момичето се притеснява случаят да не се потули и се надяват да получи справедливост. "Не мога да си го обясня по никакъв начин каква е тази жестокост от един баща. Това е дете, момиче, да посегнеш... Просто не мога да си го обясня. От тук насетне очакваме органите да си свършат работата. Тоя човек е криминално проявен, лежал в затвора... Очакваме да си получи заслуженото", добави Албена Стаменова. По случая е образувано досъдебно производство. Разследва се причиняване на средна телесна повреда, за което законът предвижда до шест години затвор. Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:04 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=4	The number of found articles is: 1
+31-12-2024 12:06:04 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 4
+31-12-2024 12:06:05 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=5	The number of found articles is: 1
+31-12-2024 12:06:05 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 5
+31-12-2024 12:06:05 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=6	The number of found articles is: 1
+31-12-2024 12:06:05 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 6
+31-12-2024 12:06:05 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=7	The number of found articles is: 1
+31-12-2024 12:06:05 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 7
+31-12-2024 12:06:05 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=8	The number of found articles is: 1
+31-12-2024 12:06:05 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 8
+31-12-2024 12:06:05 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=9	The number of found articles is: 1
+31-12-2024 12:06:05 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 9
+31-12-2024 12:06:06 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=10	The number of found articles is: 1
+31-12-2024 12:06:06 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 10
+31-12-2024 12:06:06 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=11	The number of found articles is: 1
+31-12-2024 12:06:06 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 11
+31-12-2024 12:06:06 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=12	The number of found articles is: 1
+31-12-2024 12:06:06 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 12
+31-12-2024 12:06:06 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=13	The number of found articles is: 1
+31-12-2024 12:06:06 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 13
+31-12-2024 12:06:06 INFO     ---Article with title: Момиче загина в Кюстендилско след сблъсък на автомобил с коне was not added because contains words from article title exclusion list: ['автомоб']
+31-12-2024 12:06:06 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=14	The number of found articles is: 1
+31-12-2024 12:06:06 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 14
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=15	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 15
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=16	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 16
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=17	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 17
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=18	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 18
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=19	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 19
+31-12-2024 12:06:07 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=20	The number of found articles is: 1
+31-12-2024 12:06:07 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 20
+31-12-2024 12:06:08 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=21	The number of found articles is: 1
+31-12-2024 12:06:08 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 21
+31-12-2024 12:06:08 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=22	The number of found articles is: 1
+31-12-2024 12:06:08 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 22
+31-12-2024 12:06:08 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=23	The number of found articles is: 1
+31-12-2024 12:06:08 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 23
+31-12-2024 12:06:08 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=24	The number of found articles is: 1
+31-12-2024 12:06:08 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 24
+31-12-2024 12:06:09 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=25	The number of found articles is: 1
+31-12-2024 12:06:09 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 25
+31-12-2024 12:06:09 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=26	The number of found articles is: 1
+31-12-2024 12:06:09 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 26
+31-12-2024 12:06:09 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=27	The number of found articles is: 1
+31-12-2024 12:06:09 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 27
+31-12-2024 12:06:09 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=28	The number of found articles is: 1
+31-12-2024 12:06:09 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 28
+31-12-2024 12:06:09 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=29	The number of found articles is: 1
+31-12-2024 12:06:09 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 29
+31-12-2024 12:06:10 INFO     +++ Records for the news with Три момичета бяха открити след като се изгубили в гората в Тервелско with url https://bntnews.bg/news/tri-momicheta-byaha-otkriti-sled-kato-se-izgubili-v-gorata-v-tervelsko-1319640news.html and text Три малолетни момичета са се изгубили снощи в гората край тервелското село Безмер. Сигналът на телефон 112 е подал родител на едно от децата. Той съобщил, че 12-годишната му дъщеря излязла с приятелки да се разходят между селата Безмер и Бистра. Полицаи от Добрич веднага започнали издирване на трите момичета, включили се доброволци от ловна дружинка и следово куче. Децата са открити на 7 километра навътре в гората, леко измръзнали и уплашени, но в добро психическо и физическо състояние. След разговор с инспектори от Детска педагогическа стая, момичетата са предадени на родителите им. Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:10 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=30	The number of found articles is: 2
+31-12-2024 12:06:10 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 30
+31-12-2024 12:06:10 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=31	The number of found articles is: 2
+31-12-2024 12:06:10 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 31
+31-12-2024 12:06:11 INFO     ---Article with title: Къде кучето на изчезналия Ники заведе майка му? was not added because contains words from article title exclusion list: ['куче', 'изчезнали']
+31-12-2024 12:06:11 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=32	The number of found articles is: 2
+31-12-2024 12:06:11 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 32
+31-12-2024 12:06:11 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=33	The number of found articles is: 2
+31-12-2024 12:06:11 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 33
+31-12-2024 12:06:11 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=34	The number of found articles is: 2
+31-12-2024 12:06:11 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 34
+31-12-2024 12:06:11 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=35	The number of found articles is: 2
+31-12-2024 12:06:11 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 35
+31-12-2024 12:06:11 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=36	The number of found articles is: 2
+31-12-2024 12:06:11 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 36
+31-12-2024 12:06:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=37	The number of found articles is: 2
+31-12-2024 12:06:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 37
+31-12-2024 12:06:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=38	The number of found articles is: 2
+31-12-2024 12:06:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 38
+31-12-2024 12:06:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=39	The number of found articles is: 2
+31-12-2024 12:06:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 39
+31-12-2024 12:06:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=40	The number of found articles is: 2
+31-12-2024 12:06:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 40
+31-12-2024 12:06:12 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=41	The number of found articles is: 2
+31-12-2024 12:06:12 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 41
+31-12-2024 12:06:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=42	The number of found articles is: 2
+31-12-2024 12:06:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 42
+31-12-2024 12:06:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=43	The number of found articles is: 2
+31-12-2024 12:06:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 43
+31-12-2024 12:06:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=44	The number of found articles is: 2
+31-12-2024 12:06:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 44
+31-12-2024 12:06:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=45	The number of found articles is: 2
+31-12-2024 12:06:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 45
+31-12-2024 12:06:13 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=46	The number of found articles is: 2
+31-12-2024 12:06:13 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 46
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=47	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 47
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=48	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 48
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=49	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 49
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=50	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 50
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=51	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 51
+31-12-2024 12:06:14 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=52	The number of found articles is: 2
+31-12-2024 12:06:14 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 52
+31-12-2024 12:06:15 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=53	The number of found articles is: 2
+31-12-2024 12:06:15 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 53
+31-12-2024 12:06:15 INFO     ---Article with title: 3 години затвор за жена, шофирала след употреба на алкохол was not added because contains words from article title exclusion list: ['шофир', 'алкохол']
+31-12-2024 12:06:15 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=54	The number of found articles is: 2
+31-12-2024 12:06:15 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 54
+31-12-2024 12:06:15 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=55	The number of found articles is: 2
+31-12-2024 12:06:15 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 55
+31-12-2024 12:06:15 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=56	The number of found articles is: 2
+31-12-2024 12:06:15 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 56
+31-12-2024 12:06:15 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=57	The number of found articles is: 2
+31-12-2024 12:06:15 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 57
+31-12-2024 12:06:16 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=58	The number of found articles is: 2
+31-12-2024 12:06:16 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 58
+31-12-2024 12:06:16 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=59	The number of found articles is: 2
+31-12-2024 12:06:16 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 59
+31-12-2024 12:06:16 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=60	The number of found articles is: 2
+31-12-2024 12:06:16 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 60
+31-12-2024 12:06:16 INFO     ---Article with title: 70-годишна жена пострада след падане в необезопасена шахта в центъра на Благоевград was not added because contains words from article title exclusion list: [' падан']
+31-12-2024 12:06:16 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=61	The number of found articles is: 2
+31-12-2024 12:06:16 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 61
+31-12-2024 12:06:16 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=62	The number of found articles is: 2
+31-12-2024 12:06:16 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 62
+31-12-2024 12:06:17 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=63	The number of found articles is: 2
+31-12-2024 12:06:17 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 63
+31-12-2024 12:06:17 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=64	The number of found articles is: 2
+31-12-2024 12:06:17 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 64
+31-12-2024 12:06:17 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=65	The number of found articles is: 2
+31-12-2024 12:06:17 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 65
+31-12-2024 12:06:17 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=66	The number of found articles is: 2
+31-12-2024 12:06:17 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 66
+31-12-2024 12:06:17 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=67	The number of found articles is: 2
+31-12-2024 12:06:17 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 67
+31-12-2024 12:06:18 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=68	The number of found articles is: 2
+31-12-2024 12:06:18 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 68
+31-12-2024 12:06:18 INFO     +++ Records for the news with Трагедия в Благоевград - откриха мъртви момче и момиче with url https://bntnews.bg/news/tragediya-v-blagoevgrad-otkriha-martvi-momche-i-momiche-1318611news.html and text Трагедия в Благоевград. Откриха мъртви двамата младежи, които през целия ден се издирваха от техни близки и доброволци в района. По предварителна информация няма следи от насилие. Младежите са открити мъртви тази вечер около 19:30 часа в квартира на приятел на момчето. Момичето е на 18 години от Благоевград, а момчето на 19 години от село Рилци. Телата са отрити от друг приятел на момчето, който е опитал многократно да се свърже с него, но не е успял. Проследил е чатовете им и така е стигнал до квартирата. Няма следи от насилие. По неофициална информация двамата са се задушили от газова печка. Младежите са забелязани последно вчера в село Рилци. След като момичето не се е прибрало повече от 24 часа, майката е подала сигнал в полицията. През целия ден близки и доброволци се включиха в издирването на двамата младежи, но за съжаление завърши с фатален край. Близките на двамата са възмутени от това, че полицията така и не е започнала издирване, тъй като по закон трябва да минат 24 часа след подадения сигнал. В момента са в ход процесуално-следствени действия за установяване на всички факти и обстоятелства, свързани с инцидента.    Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:18 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=69	The number of found articles is: 3
+31-12-2024 12:06:18 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 69
+31-12-2024 12:06:19 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=70	The number of found articles is: 3
+31-12-2024 12:06:19 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 70
+31-12-2024 12:06:19 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=71	The number of found articles is: 3
+31-12-2024 12:06:19 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 71
+31-12-2024 12:06:19 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=72	The number of found articles is: 3
+31-12-2024 12:06:19 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 72
+31-12-2024 12:06:19 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=73	The number of found articles is: 3
+31-12-2024 12:06:19 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 73
+31-12-2024 12:06:19 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=74	The number of found articles is: 3
+31-12-2024 12:06:19 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 74
+31-12-2024 12:06:20 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=75	The number of found articles is: 3
+31-12-2024 12:06:20 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 75
+31-12-2024 12:06:20 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=76	The number of found articles is: 3
+31-12-2024 12:06:20 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 76
+31-12-2024 12:06:20 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=77	The number of found articles is: 3
+31-12-2024 12:06:20 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 77
+31-12-2024 12:06:21 INFO     ---News article: <<< Конференция за ролята на жените в дипломацията се проведе под патронажа на вицепрезидента >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://bntnews.bg/news/konferenciya-za-rolyata-na-zhenite-v-diplomaciyata-se-provede-pod-patronazha-na-viceprezidenta-1318317news.html
+31-12-2024 12:06:21 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=78	The number of found articles is: 3
+31-12-2024 12:06:21 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 78
+31-12-2024 12:06:21 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=79	The number of found articles is: 3
+31-12-2024 12:06:21 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 79
+31-12-2024 12:06:21 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=80	The number of found articles is: 3
+31-12-2024 12:06:21 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 80
+31-12-2024 12:06:21 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=81	The number of found articles is: 3
+31-12-2024 12:06:21 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 81
+31-12-2024 12:06:21 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=82	The number of found articles is: 3
+31-12-2024 12:06:21 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 82
+31-12-2024 12:06:22 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=83	The number of found articles is: 3
+31-12-2024 12:06:22 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 83
+31-12-2024 12:06:22 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=84	The number of found articles is: 3
+31-12-2024 12:06:22 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 84
+31-12-2024 12:06:22 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=85	The number of found articles is: 3
+31-12-2024 12:06:22 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 85
+31-12-2024 12:06:22 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=86	The number of found articles is: 3
+31-12-2024 12:06:22 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 86
+31-12-2024 12:06:22 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=87	The number of found articles is: 3
+31-12-2024 12:06:22 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 87
+31-12-2024 12:06:23 INFO     ---News article: <<< Приятелката на Насар след върховото му постижение: Няма нищо по-хубаво от това да имаш такъв човек до себе си >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://bntnews.bg/news/priyatelkata-na-nasar-sled-varhovoto-mu-postizhenie-nyama-nishto-po-hubavo-ot-tova-da-imash-takav-chovek-do-sebe-si-1318061news.html
+31-12-2024 12:06:23 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=88	The number of found articles is: 3
+31-12-2024 12:06:23 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 88
+31-12-2024 12:06:23 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=89	The number of found articles is: 3
+31-12-2024 12:06:23 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 89
+31-12-2024 12:06:23 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=90	The number of found articles is: 3
+31-12-2024 12:06:23 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 90
+31-12-2024 12:06:24 INFO     +++ Records for the news with Повдигнаха обвинение на мъж, заплашил с убийство баба си with url https://bntnews.bg/news/povdignaha-obvinenie-na-mazh-zaplashil-s-ubiystvo-baba-si-1317967news.html and text Софийска районна прокуратура повдигна обвинение на 34-годишен мъж, който отправил закани за убийство към баба си и ѝ нанесъл лека телесна повреда. Случилото се е отпреди два дни. Обвиняемият, заканил с убийство възрастната жена в апартамента ѝ в София. Впоследствие я хванал с ръце за раменете и я блъснал. Тя паднала на пода и получила наранявания. По случая се води досъдебно производство, което предвижда наказание „лишаване от свобода“. Днес наблюдаващият прокурор внесе в съда искане за „задържане под стража“ спрямо обвиняемия. Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:24 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=91	The number of found articles is: 4
+31-12-2024 12:06:24 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 91
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=92	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 92
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=93	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 93
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=94	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 94
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=95	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 95
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=96	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 96
+31-12-2024 12:06:25 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=97	The number of found articles is: 4
+31-12-2024 12:06:25 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 97
+31-12-2024 12:06:26 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=98	The number of found articles is: 4
+31-12-2024 12:06:26 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 98
+31-12-2024 12:06:26 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=99	The number of found articles is: 4
+31-12-2024 12:06:26 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 99
+31-12-2024 12:06:26 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=100	The number of found articles is: 4
+31-12-2024 12:06:26 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 100
+31-12-2024 12:06:26 INFO     ---Article with title: Трамвай блъсна 84-годишна жена в София was not added because contains words from article title exclusion list: ['трамва', 'блъсна']
+31-12-2024 12:06:26 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=101	The number of found articles is: 4
+31-12-2024 12:06:26 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 101
+31-12-2024 12:06:26 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=102	The number of found articles is: 4
+31-12-2024 12:06:26 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 102
+31-12-2024 12:06:27 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=103	The number of found articles is: 4
+31-12-2024 12:06:27 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 103
+31-12-2024 12:06:27 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=104	The number of found articles is: 4
+31-12-2024 12:06:27 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 104
+31-12-2024 12:06:27 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=105	The number of found articles is: 4
+31-12-2024 12:06:27 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 105
+31-12-2024 12:06:27 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=106	The number of found articles is: 4
+31-12-2024 12:06:27 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 106
+31-12-2024 12:06:27 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=107	The number of found articles is: 4
+31-12-2024 12:06:27 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 107
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=108	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 108
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=109	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 109
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=110	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 110
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=111	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 111
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=112	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 112
+31-12-2024 12:06:28 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=113	The number of found articles is: 4
+31-12-2024 12:06:28 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 113
+31-12-2024 12:06:29 INFO     ---News article: <<< Осъдиха мъж от Варна, блудствал с малолетно момиче >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://bntnews.bg/news/osadiha-mazh-ot-varna-bludstval-s-maloletno-momiche-1317287news.html
+31-12-2024 12:06:29 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=114	The number of found articles is: 4
+31-12-2024 12:06:29 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 114
+31-12-2024 12:06:29 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=115	The number of found articles is: 4
+31-12-2024 12:06:29 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 115
+31-12-2024 12:06:30 INFO     +++ Records for the news with 60 досъдебни производства за домашно насилие са образувани за шест месеца в Софийско with url https://bntnews.bg/news/60-dosadebni-proizvodstva-za-domashno-nasilie-sa-obrazuvani-za-shest-meseca-v-sofiysko-1317178news.html and text 60 досъдебни производства за телесни повреди в условията на домашно насилие са образувани само за последните шест месеца на територията на Софийска област. Последният случай е от началото на тази седмица, когато 42-годишна жена е пребита от мъжа с кого живее от 20 години. Пострадалата е в болница, оперирана е и е с опасност за живота. 53-годишният мъж е задържан. Прокуратурата вече поиска от районния съд постоянен арест за насилника. Тя работела като чистачка, а той в строителството. В петък се скарали. В понеделник тя се прибрала от работа и приготвила вечеря, а няколко часа по-късно се върнал и той. "На 2 декември вечерта на пострадалата са причинени 6 телесни повреди, те са средни към момента. Една от телесните повреди е перфорация на белия дроб, което е състояние, според лекарите, което може да доведе до усложнение всеки момент", обясни прокурорът в Районна прокуратура Костинброд Иван Иванов.  Побоят върху 42 годишната жена е нанесен с ръце. Ударите били толкова силни, че дори сърцето е изместено. Тя сама успяла да стигне до болница, където да потърси помощ. "Първоначално не е искала да дава обяснения и да посочи кой точно й е нанесъл телесните повреди. В последствие, след проведени беседи с полицейските служители, същата заявява, че тази телесна повреда е нанесена от лицето, с което е съжителствала на семейни начала", добави прокурорът. 20 годишният им син не е бил вкъщи, когато е нанесен побоят. Няма и други свидетели на случилото се. Съседите им казват, че двамата не контактували с тях. "Те си излизат, отиват си на работа, нито говорят с нас, нито нищо. Това знам", разказа съседка.  Липсата на свидетели се оказва проблем за разследващите. "Прави впечатление, че част от жертвите все още са плахи и предпазливи в свидетелските си показания. Ето защо бих искала да апелирам към всички жертви на тези престъпления, към всички техни роднини, близки, към всички съседи и към всички граждани, които по някакъв начин са възприели факти и обстоятелства, свързани с домашно насилие да бъдат по-активни, да ни съдействат", призова и.ф. окръжен прокурор на София Наталия Николова. До момента пострадалата жена не е подавала оплаквания от домашно насилие. Разследващите разпитват техни роднини и съседи, за да разберат, дали и преди е имало подобни прояви. Задържаният е осъждан за кражби, но е реабилитиран. Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:30 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=116	The number of found articles is: 5
+31-12-2024 12:06:30 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 116
+31-12-2024 12:06:30 INFO     ---Article with title: Побойникът, нападнал беззащитни жени в Пет могили, остава под родителски надзор was not added because contains words from article title exclusion list: ['родител', 'роди']
+31-12-2024 12:06:30 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=117	The number of found articles is: 5
+31-12-2024 12:06:30 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 117
+31-12-2024 12:06:30 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=118	The number of found articles is: 5
+31-12-2024 12:06:30 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 118
+31-12-2024 12:06:31 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=119	The number of found articles is: 5
+31-12-2024 12:06:31 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 119
+31-12-2024 12:06:31 INFO     +++ Records for the news with Поредна жестокост: Младежи пребиха беззащитна жена в новозагорското село Пет могили with url https://bntnews.bg/news/poredna-zhestokost-mladezhi-prebiha-bezzashtitna-zhena-v-novozagorskoto-selo-pet-mogili-1317101news.html and text По случая има задържан 17-годишен младеж Случай на изключителна жестокост от младежи към беззащитна глухоняма жена и нейната майка в новозагорското село Пет могили. Жената с увреждане е със счупена скула и рана на устната след побоя в дома ѝ. За нападението има задържан 17-годишен младеж. Изяснява се мотивът им за нападението. Първоначално то е класифицирано като престъпление, извършено по хулигански подбуди. Пострадалата, която не чува и не може да говори, е пребита с пръчка и получила тежки наранявания. Нападателите нахлули в къщата на 30-годишната жена с ментални проблеми и нейната майка, докато те спели в събота. Младежите започнали да се гаврят със семейството, а при опит да ги изгони, жената получила силен удар и припаднала. Според прокуратурата, става дума за деяние, извършено по хулигански подбуди по особено жесток начин. Кметът на селото Гергана Георгиева каза за БНТ, че това е едно от най-бедните семейства в селото. 30-годишната жена не чува, не говори, няма решение на ТЕЛК и не е здравноосигурена, а малолетните и непълнолетни нападатели са от добри семейства и никога досега не са проявявали агресия:  "Тези седем деца са от две семейства. До сега съм нямала никакви проблеми с тях. Абсолютно и категорично го заявявам. Даже са ми помагали тук в кметството лятото. Недоумявам как е станало. Няма причина да отидат, да нападнат най-невинният човек в село Пет могили." Георгиева помоли всеки, който иска да помогне на пострадалото семейство, да се обърне към кметството в село Пет могили. Вижте повече в прякото включване на Стоян Радев Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:31 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=120	The number of found articles is: 6
+31-12-2024 12:06:31 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 120
+31-12-2024 12:06:32 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=121	The number of found articles is: 6
+31-12-2024 12:06:32 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 121
+31-12-2024 12:06:32 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=122	The number of found articles is: 6
+31-12-2024 12:06:32 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 122
+31-12-2024 12:06:32 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=123	The number of found articles is: 6
+31-12-2024 12:06:32 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 123
+31-12-2024 12:06:32 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=124	The number of found articles is: 6
+31-12-2024 12:06:32 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 124
+31-12-2024 12:06:32 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=125	The number of found articles is: 6
+31-12-2024 12:06:32 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 125
+31-12-2024 12:06:33 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=126	The number of found articles is: 6
+31-12-2024 12:06:33 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 126
+31-12-2024 12:06:33 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=127	The number of found articles is: 6
+31-12-2024 12:06:33 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 127
+31-12-2024 12:06:33 INFO     ---Article with title: "Моля ви, помогнете да намеря детето си": Търси се 17-годишно момиче от София was not added because contains words from article title exclusion list: ['дете']
+31-12-2024 12:06:33 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=128	The number of found articles is: 6
+31-12-2024 12:06:33 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 128
+31-12-2024 12:06:33 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=129	The number of found articles is: 6
+31-12-2024 12:06:33 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 129
+31-12-2024 12:06:33 INFO     ---Article with title: След ало измама: Върнаха 60 000 лв. на 83-годишна жена от с. Пчелино was not added because contains words from article title exclusion list: [' ало ']
+31-12-2024 12:06:33 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=130	The number of found articles is: 6
+31-12-2024 12:06:33 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 130
+31-12-2024 12:06:34 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=131	The number of found articles is: 6
+31-12-2024 12:06:34 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 131
+31-12-2024 12:06:34 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=132	The number of found articles is: 6
+31-12-2024 12:06:34 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 132
+31-12-2024 12:06:34 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=133	The number of found articles is: 6
+31-12-2024 12:06:34 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 133
+31-12-2024 12:06:34 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=134	The number of found articles is: 6
+31-12-2024 12:06:34 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 134
+31-12-2024 12:06:34 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=135	The number of found articles is: 6
+31-12-2024 12:06:34 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 135
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=136	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 136
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=137	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 137
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=138	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 138
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=139	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 139
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=140	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 140
+31-12-2024 12:06:35 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=141	The number of found articles is: 6
+31-12-2024 12:06:35 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 141
+31-12-2024 12:06:36 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=142	The number of found articles is: 6
+31-12-2024 12:06:36 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 142
+31-12-2024 12:06:36 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=143	The number of found articles is: 6
+31-12-2024 12:06:36 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 143
+31-12-2024 12:06:36 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=144	The number of found articles is: 6
+31-12-2024 12:06:36 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 144
+31-12-2024 12:06:36 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=145	The number of found articles is: 6
+31-12-2024 12:06:36 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 145
+31-12-2024 12:06:36 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=146	The number of found articles is: 6
+31-12-2024 12:06:36 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 146
+31-12-2024 12:06:37 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=147	The number of found articles is: 6
+31-12-2024 12:06:37 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 147
+31-12-2024 12:06:37 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=148	The number of found articles is: 6
+31-12-2024 12:06:37 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 148
+31-12-2024 12:06:38 INFO     +++ Records for the news with Заради агресията и домашното насилие: Сарафов свиква съвещание на прокуратурата with url https://bntnews.bg/news/zaradi-agresiyata-i-domashnoto-nasilie-sarafov-svikva-saveshtanie-na-prokuraturata-1302643news.html and text И.ф. главен прокурор Борислав Сарафов свиква национално съвещание на прокуратурата и МВР във връзка със случаите на агресия на обществени места и домашно насилие, информираха от пресцентъра на прокуратурата. Темата е: „Активизиране на работата на ПРБ за осигуряване на нулева  толерантност в противодействието на случаите, свързани с упражнено насилие“. "Провеждането на съвещанието е с цел осигуряване на своевременна законосъобразна реакция в съответствие със стандартите на Европейската конвенция за защита на правата на човека и основните свободи и практиката на Европейския съд в Страсбург, както и в изпълнение на заповед на Борислав Сарафов от 27.11.2024 г. във връзка с ескалацията на случаите на упражнено насилие в последните месеци". На националното съвещание ще бъдат обсъдени необходимите ефективни организационни и други мерки за постигането на реални резултати в противодействието на престъпленията, което изисква висока степен на координация и взаимодействие между прокуратурата и органите на МВР, особено с Главна дирекция „Национална полиция“, Главна дирекция „Борба с организираната престъпност“ и областните дирекции на МВР.  Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:38 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=149	The number of found articles is: 7
+31-12-2024 12:06:38 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 149
+31-12-2024 12:06:38 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=150	The number of found articles is: 7
+31-12-2024 12:06:38 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 150
+31-12-2024 12:06:38 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=151	The number of found articles is: 7
+31-12-2024 12:06:38 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 151
+31-12-2024 12:06:38 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=152	The number of found articles is: 7
+31-12-2024 12:06:38 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 152
+31-12-2024 12:06:38 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=153	The number of found articles is: 7
+31-12-2024 12:06:38 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 153
+31-12-2024 12:06:39 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=154	The number of found articles is: 7
+31-12-2024 12:06:39 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 154
+31-12-2024 12:06:39 INFO     ---Article with title: 29-годишна жена роди в линейка, бебето е починало was not added because contains words from article title exclusion list: ['бебе', 'роди']
+31-12-2024 12:06:39 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=155	The number of found articles is: 7
+31-12-2024 12:06:39 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 155
+31-12-2024 12:06:39 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=156	The number of found articles is: 7
+31-12-2024 12:06:39 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 156
+31-12-2024 12:06:39 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=157	The number of found articles is: 7
+31-12-2024 12:06:39 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 157
+31-12-2024 12:06:39 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=158	The number of found articles is: 7
+31-12-2024 12:06:39 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 158
+31-12-2024 12:06:40 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=159	The number of found articles is: 7
+31-12-2024 12:06:40 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 159
+31-12-2024 12:06:40 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=160	The number of found articles is: 7
+31-12-2024 12:06:40 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 160
+31-12-2024 12:06:40 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=161	The number of found articles is: 7
+31-12-2024 12:06:40 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 161
+31-12-2024 12:06:40 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=162	The number of found articles is: 7
+31-12-2024 12:06:40 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 162
+31-12-2024 12:06:40 INFO     ---Article with title: Пореден инцидент с електрическа тротинетка - жена блъсна възрастен пешеходец was not added because contains words from article title exclusion list: ['блъсна', 'пешеход', 'инцидент']
+31-12-2024 12:06:40 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=163	The number of found articles is: 7
+31-12-2024 12:06:40 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 163
+31-12-2024 12:06:41 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=164	The number of found articles is: 7
+31-12-2024 12:06:41 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 164
+31-12-2024 12:06:41 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=165	The number of found articles is: 7
+31-12-2024 12:06:41 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 165
+31-12-2024 12:06:42 INFO     +++ Records for the news with Майката на убитата Евгения с емоционална изповед пред съда: Орлин има две лица - не прави скандали, направо убива with url https://bntnews.bg/news/maikata-na-ubitata-evgeniya-s-emocionalna-izpoved-pred-sada-orlin-ima-dve-lica-ne-pravi-skandali-napravo-ubiva-1302233news.html and text Подсъдимият иска да види сина си: Аз мога да съм му пример, макар и негативен Майката на убитата Евгения с емоционална изповед пред съда. На днешното заседание започнаха пледоариите по делото за убийсвото на младата жена, която след това беше напъхана в куфар. През сълзи Капка Чорбанова каза, че осъденият на първа инстанция за убийството на дъщеря ѝ - Орлин Владимиров има две лица. Според нея той не правел скандали, а направо убивал. Дъщеря ѝ много го обичала, даже я питала защо го целува толкова много. Според жената Апелативният съд трябва да потвърди доживотната присъда и на Орлин, и на баща му Пламен Владимиров и те да са без право на замяна. Според нея при по-малко наказание има опасност Орлин да излезе от затвора и да се ожени наново, както и да попречи на живота и спокойствието на семейството на Евгения.  На днешното заседание близките на убитата Евгения, както и адвокатът на семейството Ивайло Найденов, поискаха по-висока присъда от тази на първа инстанция, а именно - доживотен затвор без право на замяна. На първа инстанция двамата получиха доживотни присъди. В момента бащата Пламен не е в ареста, а под "домашен арест" срещу 5000 лв. поради здравословни проблеми. Братът на Евгения Николай Чорбанов поиска от съда доживотна присъда без право на замяна. По думите му това ще донесе спокойствие на семейството. Той поиска същото наказание и за бащата на Орлин – Пламен, който е бил негов помагач. "Пламен е знаел, какво се е случило. Бил е подготвен, взел си е ръкавици и от Перник до София е дошъл за 30 минути. Бил е подготвен къде да изхвърли трупа. Също така си е изтрил и данните от телефона", каза още той.  "Сестра ми вече я няма. Три години изминаха, цялото ми семейство е съкрушено. Племенникът ми също. Какво е да си дете без майка и баща и да знаеш, че баща ти е убил майка ти... Доживотна присъда без право на замяна ще даде справедливо решение и ще даде спокойствие на нас в бъдеще", каза пред съда Николай Чорбанов. Пред съда Орлин Владимиров отрече да е следил жена си, като това било написано и в заключението на техническата експертиза. Според подсъдимият по никакъв начин не е доказано, че престъплението е извършено с предумисъл и с предварително наговаряне с баща му, твърди защитата на убитата Евгения. "Никой не е отделял толкова внимание на детето ни колкото аз", каза през сълзи Орлин Владимиров. Според него синът му би се радвал да го види, въпреки случилото се. Разказа как го учел на буквите и редели лего. "Все пак съм родител и той има нужда от моята подкрепа! Аз мога да съм му пример, макар и негативен", каза плачейки подсъдимият. Той поиска от Апелативния съд да оправдаят баща му и помоли да бъдат взети предвид всички смекчаващи вината обстоятелства.  Според адвоката на Орлин Владимиров Димитър Марковски начина на воденето на делото е ограничило правата на част от страните. Така присъдата била пристрастна и лишена от обективност. Липсвало и незачитане на доказателствата. Марковски каза още, че няма доказателства, че убийството е планирано. По думите му няма събрани доказателства, че е имало разговор и предварителна организация за убийството и укриването на трупа на Евгения. Изрази и съмнения в компетентността на вещите лица , които са изготвили експертизите. Според Марковски част от написаното в присъдата на СГС е абсурдно. Липсвало веществено доказателство че Орлин нападнал жена си. От обясненията на подсъдимия станало ясно, че Евгения го е провокирала и обидила и оттам е започнал скандалът, довел на смъртта ѝ. Преди да разбере за извънбрачната връзка на жена си, отношенията им са били хармонични без каквато и да е индикация за агресия. Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:42 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=166	The number of found articles is: 8
+31-12-2024 12:06:42 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 166
+31-12-2024 12:06:43 INFO     +++ Records for the news with Непоносимо жестоко: Ръст на домашното насилие у нас with url https://bntnews.bg/news/neponosimo-zhestoko-rast-na-domashnoto-nasilie-u-nas-1302182news.html and text Какви мерки се предприемат? Домашното насилие е в сериозен ръст през 2024 г., а данните са стряскащи. Само за първите 10 месеца на 2024 г. в полицията са получени над 4320 заповеди за защита. Това е сериозен ръст в сравнение със същия период на миналата година, когато те са били 3631. Какви мерки се взимат от органите на реда?  "Ръстът наистина е стресиращ, голям не само по отношение на получените заповеди за защита, но и на случаите, регистрирани в условията на домашно насилие", заяви в "Денят започва" главен инспектор Зорница Шуманова - национален координатор по линия "Домашно насилие", МВР. Тя посочи, че в сравнение с изминалото десетмесечие ръстът на случаите е 18%. В град София е най-голямото увеличение на броя на случаите - 25%. "Прави впечатление, че за същия период Добрич и Шумен бележат ръст на случаите на домашно насилие с 55%. Габрово също - 47%". Сигналите са най-често за физическо насилие, но има и такива на вербално, които по-трудно се доказват. Мъже също стават обект на насилие в дома. С тях по-трудно се работи, заяви Зорница Шуманова, защото "изпитват срам". "С нашата кампания искаме да накараме хората да ни потърсят. Да искат съдействие от органите на МВР, защото това е най-важно. Не трябва да се притесняват, да изпитват вина. Никой не бива да бъде подлаган на насилие без значение дали е жена, мъж или дете", категорична е тя. Вижте целия разговор във видеото Гледайте повече теми от "Денят започва"  Чуйте последните новини, където и да сте! Последвайте ни във Facebook и                             Instagram  Следете и канала на БНТ в YouTube Вече може да ни гледате и в  TikTok Намерете ни в Google News from source: bntnews.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:43 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=167	The number of found articles is: 9
+31-12-2024 12:06:43 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 167
+31-12-2024 12:06:43 INFO     ***Article with title: <<< Протести срещу домашното насилие организираха и в София и Варна >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:06:43 INFO     	For media bntnews.bg (TV news) searching in page https://bntnews.bg/bg/c/bulgaria?page=168	The number of found articles is: 9
+31-12-2024 12:06:43 INFO     Info: ('bntnews.bg', 'TV news')
+Current page is 168
+31-12-2024 12:06:43 INFO     The info of the df after transform it from the _data_dict is: (9, 9) (rows/cols)
+31-12-2024 12:06:43 INFO     Info: ('bntnews.bg', 'TV news')
+Last page was: 168
+31-12-2024 12:06:43 INFO     The 'export/bntnews.bg/bntnews.bg_archive.csv' was updated with 9 articles
+31-12-2024 12:06:43 INFO     @The article collection for bntnews.bg is done!
+31-12-2024 12:06:43 INFO     Opening: 'export/nova.bg/nova.bg_archive.csv' >>>
+31-12-2024 12:06:43 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/1	The number of found articles is: 0
+31-12-2024 12:06:43 INFO     Info: ('nova.bg', 'TV news')
+Current page is 1
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/2	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 2
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/3	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 3
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/4	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 4
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/5	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 5
+31-12-2024 12:06:44 INFO     ---Article with title: Майка продава ръчно изработени сувенири, за да лекува осиновеното си дете was not added because contains words from article title exclusion list: ['дете']
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/6	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 6
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/7	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 7
+31-12-2024 12:06:44 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/8	The number of found articles is: 0
+31-12-2024 12:06:44 INFO     Info: ('nova.bg', 'TV news')
+Current page is 8
+31-12-2024 12:06:45 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/9	The number of found articles is: 0
+31-12-2024 12:06:45 INFO     Info: ('nova.bg', 'TV news')
+Current page is 9
+31-12-2024 12:06:45 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/10	The number of found articles is: 0
+31-12-2024 12:06:45 INFO     Info: ('nova.bg', 'TV news')
+Current page is 10
+31-12-2024 12:06:45 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/11	The number of found articles is: 0
+31-12-2024 12:06:45 INFO     Info: ('nova.bg', 'TV news')
+Current page is 11
+31-12-2024 12:06:46 INFO     +++ Records for the news with По време на коледните празници: Полицията в Перник задържа трима за побой над жените си with url https://nova.bg/news/view/2024/12/27/481942/%D0%BF%D0%BE-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5-%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B8-%D0%BF%D0%BE%D0%BB%D0%B8%D1%86%D0%B8%D1%8F%D1%82%D0%B0-%D0%B2-%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0%D0%B4%D1%8A%D1%80%D0%B6%D0%B0-%D1%82%D1%80%D0%B8%D0%BC%D0%B0-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%B1%D0%BE%D0%B9-%D0%BD%D0%B0%D0%B4-%D0%B6%D0%B5%D0%BD%D0%B8%D1%82%D0%B5-%D1%81%D0%B8/ and text По три случая на домашно насилие са работили полицаите в Пернишко през празничните дни, съобщи говорителят на Областната дирекция (ОД) на МВР в Перник Венцислав Алексов. Жител на областния град на 41 години е задържан за 24 часа за побой и заплахи спрямо 38-годишна жена, с която живеел на семейни начала, каза Алексов. Потърпевшата сама е подала сигнал до полицията на 25 декември, че е била бита и заплашвана от мъжа. Задържаха мъж, пребил с точилка 16-годишната си дъщеря Алексов каза, че на следващия ден (26 декември) от Центъра за спешна медицинска помощ в Перник подали сигнал за нападната жена. Пострадалата 28-годишна жена е от пернишкото с. Мещица. Тя е била нападната от мъжа, с когото живее на семейни начала. Лекарите констатирали лека телесна повреда и подали сигнал в полицията. По случая е задържан за 24 часа мъж на 41 години, каза Алексов. В същия ден сигнал за нападната жена постъпил и в Районното управление в Радомир, съобщи още говорителят на ОД на МВР в Перник. Пострадалата е на 56 години, тя е с лека телесна повреда вследствие на побой от съпруга ѝ - 61-годишен. Нападението е извършено в радомирското село Стефаново. Мъжът е задържан за срок от 24 часа. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/12	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 12
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/13	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 13
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/14	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 14
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/15	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 15
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/16	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 16
+31-12-2024 12:06:46 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/17	The number of found articles is: 1
+31-12-2024 12:06:46 INFO     Info: ('nova.bg', 'TV news')
+Current page is 17
+31-12-2024 12:06:47 INFO     ---News article: <<< "Мисис баба" Дони Василева: Най-важно е с кои хора сме заедно около масата на Бъдни вечер >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://nova.bg/news/view/2024/12/24/481681/%D0%BC%D0%B8%D1%81%D0%B8%D1%81-%D0%B1%D0%B0%D0%B1%D0%B0-%D0%B4%D0%BE%D0%BD%D0%B8-%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B5%D0%B2%D0%B0-%D0%BD%D0%B0%D0%B9-%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B5-%D1%81-%D0%BA%D0%BE%D0%B8-%D1%85%D0%BE%D1%80%D0%B0-%D1%81%D0%BC%D0%B5-%D0%B7%D0%B0%D0%B5%D0%B4%D0%BD%D0%BE-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE-%D0%BC%D0%B0%D1%81%D0%B0%D1%82%D0%B0-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%B4%D0%BD%D0%B8-%D0%B2%D0%B5%D1%87%D0%B5%D1%80/
+31-12-2024 12:06:47 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/18	The number of found articles is: 1
+31-12-2024 12:06:47 INFO     Info: ('nova.bg', 'TV news')
+Current page is 18
+31-12-2024 12:06:47 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/19	The number of found articles is: 1
+31-12-2024 12:06:47 INFO     Info: ('nova.bg', 'TV news')
+Current page is 19
+31-12-2024 12:06:47 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/20	The number of found articles is: 1
+31-12-2024 12:06:47 INFO     Info: ('nova.bg', 'TV news')
+Current page is 20
+31-12-2024 12:06:47 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/21	The number of found articles is: 1
+31-12-2024 12:06:47 INFO     Info: ('nova.bg', 'TV news')
+Current page is 21
+31-12-2024 12:06:47 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/22	The number of found articles is: 1
+31-12-2024 12:06:47 INFO     Info: ('nova.bg', 'TV news')
+Current page is 22
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/23	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 23
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/24	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 24
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/25	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 25
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/26	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 26
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/27	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 27
+31-12-2024 12:06:48 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/28	The number of found articles is: 1
+31-12-2024 12:06:48 INFO     Info: ('nova.bg', 'TV news')
+Current page is 28
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/29	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 29
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/30	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 30
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/31	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 31
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/32	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 32
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/33	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 33
+31-12-2024 12:06:49 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/34	The number of found articles is: 1
+31-12-2024 12:06:49 INFO     Info: ('nova.bg', 'TV news')
+Current page is 34
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/35	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 35
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/36	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 36
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/37	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 37
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/38	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 38
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/39	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 39
+31-12-2024 12:06:50 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/40	The number of found articles is: 1
+31-12-2024 12:06:50 INFO     Info: ('nova.bg', 'TV news')
+Current page is 40
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/41	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 41
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/42	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 42
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/43	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 43
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/44	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 44
+31-12-2024 12:06:51 INFO     ---Article with title: Кола удари майка с две деца на тротоар в Ямбол, едното е с опасност за живота (ВИДЕО) was not added because contains words from article title exclusion list: ['деца']
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/45	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 45
+31-12-2024 12:06:51 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/46	The number of found articles is: 1
+31-12-2024 12:06:51 INFO     Info: ('nova.bg', 'TV news')
+Current page is 46
+31-12-2024 12:06:52 INFO     ---Article with title: 13 г. след смъртта на родилка: Майка ѝ моли за съдействие държавата, за да се разкрие истината was not added because contains words from article title exclusion list: ['роди']
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/47	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 47
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/48	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 48
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/49	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 49
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/50	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 50
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/51	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 51
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/52	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 52
+31-12-2024 12:06:52 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/53	The number of found articles is: 1
+31-12-2024 12:06:52 INFO     Info: ('nova.bg', 'TV news')
+Current page is 53
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/54	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 54
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/55	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 55
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/56	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 56
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/57	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 57
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/58	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 58
+31-12-2024 12:06:53 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/59	The number of found articles is: 1
+31-12-2024 12:06:53 INFO     Info: ('nova.bg', 'TV news')
+Current page is 59
+31-12-2024 12:06:54 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/60	The number of found articles is: 1
+31-12-2024 12:06:54 INFO     Info: ('nova.bg', 'TV news')
+Current page is 60
+31-12-2024 12:06:54 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/61	The number of found articles is: 1
+31-12-2024 12:06:54 INFO     Info: ('nova.bg', 'TV news')
+Current page is 61
+31-12-2024 12:06:54 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/62	The number of found articles is: 1
+31-12-2024 12:06:54 INFO     Info: ('nova.bg', 'TV news')
+Current page is 62
+31-12-2024 12:06:55 INFO     +++ Records for the news with Задържаха мъж, заплашил баба си с убийство, в София with url https://nova.bg/news/view/2024/12/11/480185/%D0%B7%D0%B0%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D1%85%D0%B0-%D0%BC%D1%8A%D0%B6-%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D1%88%D0%B8%D0%BB-%D0%B1%D0%B0%D0%B1%D0%B0-%D1%81%D0%B8-%D1%81-%D1%83%D0%B1%D0%B8%D0%B9%D1%81%D1%82%D0%B2%D0%BE-%D0%B2-%D1%81%D0%BE%D1%84%D0%B8%D1%8F/ and text Софийска районна прокуратура привлече към наказателна отговорност 34-годишен мъж, заплашил с убийство баба си. Той е нанесъл телесна повреда на жената. Обвиняемият хванал с ръце раменете на жената и я блъснал, вследствие на което тя паднала на пода. Случаят е от 9 декември тази година. Задържаха мъж, заподозрян, че е убил баба си с чук в Пловдивско По случая се води досъдебно производство за престъпления, за които се предвижда наказание „лишаване от свобода“. Мъжът е задържан за срок до 72 часа. Наблюдаващ прокурор внесе в съда искане за „задържане под стража“ спрямо обвиняемия. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/63	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 63
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/64	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 64
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/65	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 65
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/66	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 66
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/67	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 67
+31-12-2024 12:06:55 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/68	The number of found articles is: 2
+31-12-2024 12:06:55 INFO     Info: ('nova.bg', 'TV news')
+Current page is 68
+31-12-2024 12:06:56 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/69	The number of found articles is: 2
+31-12-2024 12:06:56 INFO     Info: ('nova.bg', 'TV news')
+Current page is 69
+31-12-2024 12:06:56 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/70	The number of found articles is: 2
+31-12-2024 12:06:56 INFO     Info: ('nova.bg', 'TV news')
+Current page is 70
+31-12-2024 12:06:56 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/71	The number of found articles is: 2
+31-12-2024 12:06:56 INFO     Info: ('nova.bg', 'TV news')
+Current page is 71
+31-12-2024 12:06:56 INFO     ---Article with title: Почитаме Света Анна - майката на Богородица was not added because contains words from article title exclusion list: ['почитаме', 'роди']
+31-12-2024 12:06:56 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/72	The number of found articles is: 2
+31-12-2024 12:06:56 INFO     Info: ('nova.bg', 'TV news')
+Current page is 72
+31-12-2024 12:06:56 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/73	The number of found articles is: 2
+31-12-2024 12:06:56 INFO     Info: ('nova.bg', 'TV news')
+Current page is 73
+31-12-2024 12:06:57 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/74	The number of found articles is: 2
+31-12-2024 12:06:57 INFO     Info: ('nova.bg', 'TV news')
+Current page is 74
+31-12-2024 12:06:57 INFO     ---Article with title: Бус блъсна и уби възрастна жена в Старозагорско was not added because contains words from article title exclusion list: ['блъсна']
+31-12-2024 12:06:57 INFO     ---News article: <<< Зов за помощ: Жена има нужда от средства, за да проходи >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://nova.bg/news/view/2024/12/07/479723/%D0%B7%D0%BE%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89-%D0%B6%D0%B5%D0%BD%D0%B0-%D0%B8%D0%BC%D0%B0-%D0%BD%D1%83%D0%B6%D0%B4%D0%B0-%D0%BE%D1%82-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0-%D0%B7%D0%B0-%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D0%B8/
+31-12-2024 12:06:57 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/75	The number of found articles is: 2
+31-12-2024 12:06:57 INFO     Info: ('nova.bg', 'TV news')
+Current page is 75
+31-12-2024 12:06:57 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/76	The number of found articles is: 2
+31-12-2024 12:06:57 INFO     Info: ('nova.bg', 'TV news')
+Current page is 76
+31-12-2024 12:06:57 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/77	The number of found articles is: 2
+31-12-2024 12:06:57 INFO     Info: ('nova.bg', 'TV news')
+Current page is 77
+31-12-2024 12:06:58 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/78	The number of found articles is: 2
+31-12-2024 12:06:58 INFO     Info: ('nova.bg', 'TV news')
+Current page is 78
+31-12-2024 12:06:58 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/79	The number of found articles is: 2
+31-12-2024 12:06:58 INFO     Info: ('nova.bg', 'TV news')
+Current page is 79
+31-12-2024 12:06:59 INFO     +++ Records for the news with Организации питат МС защо не се прилага Закона за защита от домашно насилие with url https://nova.bg/news/view/2024/12/05/479518/%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%B8%D1%82%D0%B0%D1%82-%D0%BC%D1%81-%D0%B7%D0%B0%D1%89%D0%BE-%D0%BD%D0%B5-%D1%81%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%B0%D0%B3%D0%B0-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BE%D1%82-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%BE-%D0%BD%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B5/ and text 41 граждански организации призовават Министерски съвет за спешно прилагане на Закона за домашното насилие. Неправителствената коалицията „Заедно срещу насилието“ призовава за спешни действия по приемането на проекта за Координационен механизъм. Темата коментираха Николета Ганева , юрист от Асоциация „Анимус”, и Преслава Фентъм-Флечър, директор „Развитие” на Фондация „Будителки”, в предаването „Социална мрежа” по NOVA NEWS. От заплахи за убийство до телесни повреди: Зачестяват случаите на домашно насилие в област София „Писмото засяга забавянето на приемането на Координационния механизъм, в изпълнение на последната реформа в Закона за защита от домашно насилие. Това е документ, чието значение не трябва да се подценява. Тъй като има проект, резултат от голяма експертна работа, не е ясно защо той не е действащ”, каза Ганева. Тя поясни, че въпросният механизъм внася структура, разпределя правата и задълженията на хората, които могат да бъдат ангажирани във веригата по предоставяне на подкрепа и закрила. И допълни, че текстът дава и повече яснота за лицата в риск. Флечър посочи, че без да се приеме Координационният механизъм, Законът няма как да заработи и реално той не се изпълнява. И посочи, че въпросният документ се бави вече шест месеца. Тя поясни, че чакат отговор от МС в рамките на седем работни дни от внасянето на писмото. Целия разговор гледайте във видеото. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:59 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/80	The number of found articles is: 3
+31-12-2024 12:06:59 INFO     Info: ('nova.bg', 'TV news')
+Current page is 80
+31-12-2024 12:06:59 INFO     +++ Records for the news with След жестокия случай на домашно насилие в Костинброд: Съседи твърдят, че семейството отдавна се карало with url https://nova.bg/news/view/2024/12/05/479544/%D1%81%D0%BB%D0%B5%D0%B4-%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%BA%D0%B8%D1%8F-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%BE-%D0%BD%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B1%D1%80%D0%BE%D0%B4-%D1%81%D1%8A%D1%81%D0%B5%D0%B4%D0%B8-%D1%82%D0%B2%D1%8A%D1%80%D0%B4%D1%8F%D1%82-%D1%87%D0%B5-%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D1%82%D0%BE-%D0%BE%D1%82%D0%B4%D0%B0%D0%B2%D0%BD%D0%B0-%D1%81%D0%B5-%D0%BA%D0%B0%D1%80%D0%B0%D0%BB%D0%BE/ and text След жестокия случай на домашно насилие в Костинброд, съседи на семейството обявиха пред NOVA, че двамата отдавна са имали разправии. Припомняме, че 42-годишна жена бе приета в болница с опасност за живота и тежки травми, причинени от мъжа, с който живее на семейни начала. МВР и Прокуратурата разбрали за случая от лечебното заведение. Жертвата не е подала сигнал. Тя е откарана в „Пиргов” от мъжа си. В лечебното заведение се представил като неин брат. По-късно е задържан. Днес съседите им разказаха, че семейството имало проблеми отдавна. „Много пъти му искаше пари и той даваше. Дошло му е до гуша явно”, смята Свилко.  Случвало се да злоупотребяват с алкохол, твърдят още съседи. Обвиниха мъж за жесток побой на жена в Костинброд   Напрежение в семейството създавало и една от децата на двойката. То имало психични проблеми. „Те имат 3 деца. Едната дъщеря е доведена и е настанено вчера в специализирано заведение за психични заболявания за лечение”, поясни зам.-кметът на града Александър Ненов.  От Прокуратурата обявиха, че жената е била пребита с юмруци. Ударите обаче оставили следи по ръцете на насилника. „По тялото му са открити следи от борба, одрасквания, подуване на пръсти. Това за нас означава, че механизмът на деянието е бил нанасяне на удари с ръце”, заяви прокурорът при Районната прокуратура Иван Иванов. Случаят буквално потресе Костинброд, а от общината призоваха хората да сигнализират, за да не се стига до трагедии. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:06:59 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/81	The number of found articles is: 4
+31-12-2024 12:06:59 INFO     Info: ('nova.bg', 'TV news')
+Current page is 81
+31-12-2024 12:06:59 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/82	The number of found articles is: 4
+31-12-2024 12:06:59 INFO     Info: ('nova.bg', 'TV news')
+Current page is 82
+31-12-2024 12:07:00 INFO     +++ Records for the news with „Пребита е жестоко, с яд“: Седем младежи нападнаха жена с увреждания и майка ѝ with url https://nova.bg/news/view/2024/12/05/479473/%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B0-%D0%B5-%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%BA%D0%BE-%D1%81-%D1%8F%D0%B4-%D1%81%D0%B5%D0%B4%D0%B5%D0%BC-%D0%BC%D0%BB%D0%B0%D0%B4%D0%B5%D0%B6%D0%B8-%D0%BD%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%B0%D1%85%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B0-%D1%81-%D1%83%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0-%D1%9D/ and text Седем непълнолетни и малолетни момчета от новозагорското село Пет могили са нападнали беззащитна жена на 30 години и 69-годишната ѝ майка. Нанесли са побой на жените. Причината за нападението остава неясна. Днес пред съда се изправи единият от нападателите, който е на 17 години. В събота късно вечерта момчетата решили да отидат в къща в края на селото, където живеят възрастна жена и 30-годишната ѝ дъщеря с ментални проблеми. „Няма и смисъл да ходят там, защото тази жена е най–бедната в Пет могили. Тя няма пари. Не знам каква е причината, може би са нямали работа, решили са да си покажат силите и са отишли в най-бедната и беззащитна жена”, обясни кметът на селото Гергана Георгиева. Какви са версиите за фаталния инцидент в САЩ, при който българин беше застрелян Младежите нахлуват в къщата и нанасят удари с дървен кол на спящите жени. Възрастната жена се опитва да ги изгони, получава удар по главата, а болната ѝ дъщеря е с множество наранявания.   „Има счупени зъби и долна челюст. Пребита е жестоко, сякаш с яд. Тя е беззащитна. Сигурна съм, че не се е защитила, защото не може”, обясни Гергана Георгиева. Жените живеели в крайна бедност. Без ток, вода, в стая без стъкла.   „Момиченцето не чува, не говори”, обясни Георгиева.   Въпреки че са здравно неосигурени жените са прегледани в болница. Сега живеят при роднини.   Нападателите нямат предишни криминални прояви. Ходели и на училище, а родителите им работели.   „Не съм имала проблеми с тях, даже са ни помагали в кметството”, обясни Георгиева. 17-годишен нападател е задържан. Днес се изправи пред съда в Нова Загора, който постанови мярка неотклонение „Надзор на родител”. А родителите му може да получат глоба до 500 лева. „По същество представлява предаване на непълнолетния срещу подписка на родителите му, които се задължават да оказват възпитателно въздействие спрямо него, да следят за поведението му и да осигуряват осигуряването му пред разследващите органи и съда”, обясни Венета Добрева от Прокуратурата в Сливен.   А от кметство Пет могили отвориха дарителска сметка, в която събират средства за лечение и подобряване битовите условия за живот на двете жени. Ако искате, може да помогнете: Банка ДСК Титуляр: Иванка Стоянова IBAN: BG37STSA93000031409382 from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:07:00 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/83	The number of found articles is: 5
+31-12-2024 12:07:00 INFO     Info: ('nova.bg', 'TV news')
+Current page is 83
+31-12-2024 12:07:00 INFO     ---Article with title: Зов за помощ: Жена се нуждае от средства за спешна операция в Турция was not added because contains words from article title exclusion list: ['операц']
+31-12-2024 12:07:00 INFO     ---Article with title: Годеницата на покойния пилот капитан Дункин му роди дъщеричка was not added because contains words from article title exclusion list: ['роди']
+31-12-2024 12:07:00 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/84	The number of found articles is: 5
+31-12-2024 12:07:00 INFO     Info: ('nova.bg', 'TV news')
+Current page is 84
+31-12-2024 12:07:01 INFO     +++ Records for the news with 22-годишна жена преби мъжа си в Монтанско with url https://nova.bg/news/view/2024/12/04/479398/22-%D0%B3%D0%BE%D0%B4%D0%B8%D1%88%D0%BD%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B1%D0%B8-%D0%BC%D1%8A%D0%B6%D0%B0-%D1%81%D0%B8-%D0%B2-%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/ and text Мъж на 24 години от монтанското село Винище e получил лека телесна повреда в условията на домашно насилие, съобщиха от Областната дирекция на МВР в Монтана. Обвиниха 27-годишен мъж, заканил се с убийство на жената, с която живее Към 21:00 снощи той се черпел с приятели в дома си в селото и се скарал с жена на 22 години, с която живее на семейни начала и има две деца. Двамата излезли в двора на имота и там започнала саморазправа. Жената е нанесла удари на мъжа. На място била извикана полиция и пострадалият бил откаран в болница за установяване на състоянието му. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:07:01 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/85	The number of found articles is: 6
+31-12-2024 12:07:01 INFO     Info: ('nova.bg', 'TV news')
+Current page is 85
+31-12-2024 12:07:01 INFO     +++ Records for the news with Обвиниха 27-годишен мъж, заканил се с убийство на жената, с която живее with url https://nova.bg/news/view/2024/12/04/479373/%D0%BE%D0%B1%D0%B2%D0%B8%D0%BD%D0%B8%D1%85%D0%B0-27-%D0%B3%D0%BE%D0%B4%D0%B8%D1%88%D0%B5%D0%BD-%D0%BC%D1%8A%D0%B6-%D0%B7%D0%B0%D0%BA%D0%B0%D0%BD%D0%B8%D0%BB-%D1%81%D0%B5-%D1%81-%D1%83%D0%B1%D0%B8%D0%B9%D1%81%D1%82%D0%B2%D0%BE-%D0%BD%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B0%D1%82%D0%B0-%D1%81-%D0%BA%D0%BE%D1%8F%D1%82%D0%BE-%D0%B6%D0%B8%D0%B2%D0%B5%D0%B5/ and text Повдигнаха обвинение на 27-годишен мъж, заканил се с убийство на жената, с която е във фактическо съпружеско съжителство. След побой тя е с лека телесна повреда, съобщиха от Софийската районна прокуратура. Случаят е от 02 декември 2024 г. от гр. София. Тогава обвиняемият Д.А. се заканил с убийство на К.Й. като й казал: „Ще те убия, ще те утрепя“. Обвиняемият ударил с ръце лицето и ръцете на жената и й причинил лека телесна повреда. Деянията са извършени в условията на домашно насилие. Сарафов разпореди незабавни действия срещу зачестилите случаи на насилие С постановление на наблюдаващ прокурор Д.А. е задържан за срок до 72 часа. Предстои да бъде внесено искане в съда за определяне на постоянен арест към обвиняемия. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:07:01 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/86	The number of found articles is: 7
+31-12-2024 12:07:01 INFO     Info: ('nova.bg', 'TV news')
+Current page is 86
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/87	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 87
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/88	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 88
+31-12-2024 12:07:02 INFO     ---Article with title: Върнаха 60 000 лв. на възрастна жена, дала парите на „ало” измамници was not added because contains words from article title exclusion list: ['пари']
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/89	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 89
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/90	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 90
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/91	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 91
+31-12-2024 12:07:02 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/92	The number of found articles is: 7
+31-12-2024 12:07:02 INFO     Info: ('nova.bg', 'TV news')
+Current page is 92
+31-12-2024 12:07:03 INFO     ---Article with title: Бащата на Мануела Горсова е в неизвестност от няколко дни, взел е пари от сметките на дъщеря си was not added because contains words from article title exclusion list: ['пари']
+31-12-2024 12:07:03 INFO     ---News article: <<< За първи път: Избраха жена за председател на БАН >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://nova.bg/news/view/2024/12/02/479128/%D0%B7%D0%B0-%D0%BF%D1%8A%D1%80%D0%B2%D0%B8-%D0%BF%D1%8A%D1%82-%D0%B8%D0%B7%D0%B1%D1%80%D0%B0%D1%85%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B0-%D0%B7%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB-%D0%BD%D0%B0-%D0%B1%D0%B0%D0%BD/
+31-12-2024 12:07:03 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/93	The number of found articles is: 7
+31-12-2024 12:07:03 INFO     Info: ('nova.bg', 'TV news')
+Current page is 93
+31-12-2024 12:07:03 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/94	The number of found articles is: 7
+31-12-2024 12:07:03 INFO     Info: ('nova.bg', 'TV news')
+Current page is 94
+31-12-2024 12:07:03 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/95	The number of found articles is: 7
+31-12-2024 12:07:03 INFO     Info: ('nova.bg', 'TV news')
+Current page is 95
+31-12-2024 12:07:03 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/96	The number of found articles is: 7
+31-12-2024 12:07:03 INFO     Info: ('nova.bg', 'TV news')
+Current page is 96
+31-12-2024 12:07:04 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/97	The number of found articles is: 7
+31-12-2024 12:07:04 INFO     Info: ('nova.bg', 'TV news')
+Current page is 97
+31-12-2024 12:07:04 INFO     +++ Records for the news with „Код синьо”:  Актьори с кампания срещу домашното насилие (ВИДЕО) with url https://nova.bg/news/view/2024/12/01/479004/%D0%BA%D0%BE%D0%B4-%D1%81%D0%B8%D0%BD%D1%8C%D0%BE-%D0%B0%D0%BA%D1%82%D1%8C%D0%BE%D1%80%D0%B8-%D1%81-%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D1%80%D0%B5%D1%89%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%BE%D1%82%D0%BE-%D0%BD%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B5-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/ and text Актьори с кампания срещу домашното насилие. Тя е под наслов код „Синьо”. „Често се вълнуваме от прогнозата за времето. Постоянно говорим за кодове. Но не обръщаме внимание на сигналите, които са в нашия дом или при съседите. Говоря за бруталното насилие, което се случва и всички си затваряме очите. Надяваме се така хората да започнат да търсят помощ”, споделиха в студиото на „Събуди се” Алек Алексиев и Мария Сотирова. Повече гледайте във видеото. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:07:04 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/98	The number of found articles is: 8
+31-12-2024 12:07:04 INFO     Info: ('nova.bg', 'TV news')
+Current page is 98
+31-12-2024 12:07:04 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/99	The number of found articles is: 8
+31-12-2024 12:07:04 INFO     Info: ('nova.bg', 'TV news')
+Current page is 99
+31-12-2024 12:07:05 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/100	The number of found articles is: 8
+31-12-2024 12:07:05 INFO     Info: ('nova.bg', 'TV news')
+Current page is 100
+31-12-2024 12:07:05 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/101	The number of found articles is: 8
+31-12-2024 12:07:05 INFO     Info: ('nova.bg', 'TV news')
+Current page is 101
+31-12-2024 12:07:05 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/102	The number of found articles is: 8
+31-12-2024 12:07:05 INFO     Info: ('nova.bg', 'TV news')
+Current page is 102
+31-12-2024 12:07:05 INFO     ---News article: <<< 20+ Идеи за оригинален подарък за приятелка за всеки повод >>> was not included in the data because none of BaseWebsite._second_level keywords were found in the article text Article url: https://nova.bg/news/view/2024/11/29/478733/20-%D0%B8%D0%B4%D0%B5%D0%B8-%D0%B7%D0%B0-%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB%D0%B5%D0%BD-%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D1%8A%D0%BA-%D0%B7%D0%B0-%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B2%D1%81%D0%B5%D0%BA%D0%B8-%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4/
+31-12-2024 12:07:05 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/103	The number of found articles is: 8
+31-12-2024 12:07:05 INFO     Info: ('nova.bg', 'TV news')
+Current page is 103
+31-12-2024 12:07:05 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/104	The number of found articles is: 8
+31-12-2024 12:07:05 INFO     Info: ('nova.bg', 'TV news')
+Current page is 104
+31-12-2024 12:07:06 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/105	The number of found articles is: 8
+31-12-2024 12:07:06 INFO     Info: ('nova.bg', 'TV news')
+Current page is 105
+31-12-2024 12:07:06 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/106	The number of found articles is: 8
+31-12-2024 12:07:06 INFO     Info: ('nova.bg', 'TV news')
+Current page is 106
+31-12-2024 12:07:06 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/107	The number of found articles is: 8
+31-12-2024 12:07:06 INFO     Info: ('nova.bg', 'TV news')
+Current page is 107
+31-12-2024 12:07:06 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/108	The number of found articles is: 8
+31-12-2024 12:07:06 INFO     Info: ('nova.bg', 'TV news')
+Current page is 108
+31-12-2024 12:07:06 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/109	The number of found articles is: 8
+31-12-2024 12:07:06 INFO     Info: ('nova.bg', 'TV news')
+Current page is 109
+31-12-2024 12:07:07 INFO     +++ Records for the news with Домашно насилие: Мъж е обвинен, че бил и хапал приятелката си по главата with url https://nova.bg/news/view/2024/11/27/478579/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%BE-%D0%BD%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B5-%D0%BC%D1%8A%D0%B6-%D0%B5-%D0%BE%D0%B1%D0%B2%D0%B8%D0%BD%D0%B5%D0%BD-%D1%87%D0%B5-%D0%B1%D0%B8%D0%BB-%D0%B8-%D1%85%D0%B0%D0%BF%D0%B0%D0%BB-%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B5%D0%BB%D0%BA%D0%B0%D1%82%D0%B0-%D1%81%D0%B8-%D0%BF%D0%BE-%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0%D1%82%D0%B0/ and text Арестуваха мъж от смядовското село Янково за домашно насилие над приятелката му. 32-годишна жена е подала сигнал във вторник, че 37-годишният мъж, с когото живее на семейни начала, на 25 ноември вечерта ѝ ударил шамар, скубал я и я хапал по главата. Информацията е на МВР Шумен. Мъжът е задържан в полицейското управление във Велики Преслав за срок до 24 часа. По случая е образувано досъдебно производство, информира БТА. Увеличават се сигналите за домашно насилие в страната в сравнение с 2023 г. Нападението е станало в Международния ден срещу домашното насилие. Тогава директорът на Областната дирекция  на МВР в града ст. комисар Георги Гендов съобщи, че от началото на годината са издадени 146 заповеди за защита по Закона за домашното насилие, като 128 от тях са за незабавна, а 18 – за постоянна защита. За същия период на изминалата година издадените заповеди в областта са били 118. Общо 67 са причинените телесни повреди в условията на домашно насилие през тази година, а 11 са заканите за убийство. Общо 82 случая на домашно насилие са регистрирани в Шуменска област от началото на годината до 29 август. През цялата изминала година този вид престъпления са 44. Ръстът е стряскащ – 86%, коментира директорът на Областната дирекция на МВР в Шумен ст. комисар Георги Гендов при представянето на филма „За да има утре“, изготвен по инициатива на полицията в областния град филм с цел превенция на домашно насилие. from source: nova.bg was successfully added to the BaseWebsite._data_dict
+31-12-2024 12:07:07 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/110	The number of found articles is: 9
+31-12-2024 12:07:07 INFO     Info: ('nova.bg', 'TV news')
+Current page is 110
+31-12-2024 12:07:07 INFO     ---Article with title: Бебе е с хематом на главата, а жена - в шоково състояние след катастрофа в София was not added because contains words from article title exclusion list: ['катастроф', 'бебе']
+31-12-2024 12:07:07 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/111	The number of found articles is: 9
+31-12-2024 12:07:07 INFO     Info: ('nova.bg', 'TV news')
+Current page is 111
+31-12-2024 12:07:07 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/112	The number of found articles is: 9
+31-12-2024 12:07:07 INFO     Info: ('nova.bg', 'TV news')
+Current page is 112
+31-12-2024 12:07:07 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/113	The number of found articles is: 9
+31-12-2024 12:07:07 INFO     Info: ('nova.bg', 'TV news')
+Current page is 113
+31-12-2024 12:07:08 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/114	The number of found articles is: 9
+31-12-2024 12:07:08 INFO     Info: ('nova.bg', 'TV news')
+Current page is 114
+31-12-2024 12:07:08 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/115	The number of found articles is: 9
+31-12-2024 12:07:08 INFO     Info: ('nova.bg', 'TV news')
+Current page is 115
+31-12-2024 12:07:08 INFO     ***Article with title: <<< „Нито една повече“: Протести срещу насилието над жени в няколко града у нас (СНИМКИ) >>> already existed within the media archive as URL and Title. 
+31-12-2024 12:07:08 INFO     	For media nova.bg (TV news) searching in page https://nova.bg/news/category/2/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/116	The number of found articles is: 9
+31-12-2024 12:07:08 INFO     Info: ('nova.bg', 'TV news')
+Current page is 116
+31-12-2024 12:07:08 INFO     The info of the df after transform it from the _data_dict is: (9, 9) (rows/cols)
+31-12-2024 12:07:08 INFO     Info: ('nova.bg', 'TV news')
+Last page was: 116
+31-12-2024 12:07:08 INFO     The 'export/nova.bg/nova.bg_archive.csv' was updated with 9 articles
+31-12-2024 12:07:09 INFO     @The article collection for nova.bg is done!

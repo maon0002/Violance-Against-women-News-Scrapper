@@ -1,5 +1,5 @@
 
-*.log
+#*.log
 tests.py
 test_new_website.py
 tests.py
